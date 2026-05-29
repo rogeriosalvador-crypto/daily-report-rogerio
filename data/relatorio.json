@@ -1,6 +1,6 @@
 {
   "data_referencia": "27/05/2026",
-  "data_atualizacao": "28/05/2026 00:00",
+  "data_atualizacao": "29/05/2026 10:30",
   "periodos": {
     "NAGUMO": {
       "D-1": {
@@ -198,9 +198,12 @@
           "pedidos": 119,
           "cancel_pct": 0.8,
           "ruptura_pct": 15.1,
-          "nps": null,
-          "meta_gmv": 14730.93,
-          "ating_pct": 95.9
+          "ating_pct_meta": 0.8,
+          "sla_sep_pct": 61.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 23840.4,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Diva",
@@ -208,9 +211,12 @@
           "pedidos": 93,
           "cancel_pct": 1.1,
           "ruptura_pct": 21.5,
-          "nps": null,
-          "meta_gmv": 9490.43,
-          "ating_pct": 135.0
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 66.3,
+          "online_pct": 12.0,
+          "gmv_rupturado": 43957.22,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Mogi",
@@ -218,9 +224,12 @@
           "pedidos": 97,
           "cancel_pct": 5.8,
           "ruptura_pct": 17.5,
-          "nps": null,
-          "meta_gmv": 9793.64,
-          "ating_pct": 128.9
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 69.6,
+          "online_pct": 13.2,
+          "gmv_rupturado": 42556.51,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pires do Rio",
@@ -228,9 +237,12 @@
           "pedidos": 100,
           "cancel_pct": 4.8,
           "ruptura_pct": 40.0,
-          "nps": null,
-          "meta_gmv": 15485.83,
-          "ating_pct": 79.3
+          "ating_pct_meta": 0.8,
+          "sla_sep_pct": 44.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 61914.3,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Mazza",
@@ -238,9 +250,12 @@
           "pedidos": 62,
           "cancel_pct": 0.0,
           "ruptura_pct": 9.7,
-          "nps": null,
-          "meta_gmv": 7485.82,
-          "ating_pct": 128.0
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 92.1,
+          "online_pct": 12.2,
+          "gmv_rupturado": 12711.24,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Atibaia",
@@ -248,9 +263,12 @@
           "pedidos": 55,
           "cancel_pct": 6.8,
           "ruptura_pct": 32.7,
-          "nps": null,
-          "meta_gmv": 7644.19,
-          "ating_pct": 123.3
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 59.0,
+          "online_pct": 13.0,
+          "gmv_rupturado": 26249.69,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pq Continental Gru",
@@ -258,9 +276,12 @@
           "pedidos": 71,
           "cancel_pct": 6.6,
           "ruptura_pct": 21.1,
-          "nps": null,
-          "meta_gmv": 8883.77,
-          "ating_pct": 103.7
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 64.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 26859.16,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Bonsucesso",
@@ -268,9 +289,12 @@
           "pedidos": 59,
           "cancel_pct": 7.8,
           "ruptura_pct": 25.4,
-          "nps": null,
-          "meta_gmv": 5932.31,
-          "ating_pct": 145.6
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 58.3,
+          "online_pct": 14.0,
+          "gmv_rupturado": 18294.4,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Osasco",
@@ -278,9 +302,12 @@
           "pedidos": 63,
           "cancel_pct": 13.7,
           "ruptura_pct": 30.2,
-          "nps": null,
-          "meta_gmv": 8382.79,
-          "ating_pct": 97.8
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 37.3,
+          "online_pct": 14.0,
+          "gmv_rupturado": 28082.37,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande",
@@ -288,9 +315,12 @@
           "pedidos": 52,
           "cancel_pct": 3.7,
           "ruptura_pct": 30.8,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 71.4,
+          "online_pct": 14.0,
+          "gmv_rupturado": 17235.18,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaqua",
@@ -298,29 +328,25 @@
           "pedidos": 59,
           "cancel_pct": 7.8,
           "ruptura_pct": 25.4,
-          "nps": null,
-          "meta_gmv": 6100.08,
-          "ating_pct": 117.1
-        },
-        {
-          "nome": "Nagumo Express - Mauá",
-          "gmv": 6920.1,
-          "pedidos": 54,
-          "cancel_pct": 34.1,
-          "ruptura_pct": 22.2,
-          "nps": null,
-          "meta_gmv": 11026.71,
-          "ating_pct": 62.8
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 50.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 19939.2,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - S. André Centro",
-          "gmv": 6916.83,
-          "pedidos": 34,
+          "gmv": 7034.88,
+          "pedidos": 35,
           "cancel_pct": 0.0,
-          "ruptura_pct": 17.6,
-          "nps": null,
-          "meta_gmv": 7828.58,
-          "ating_pct": 88.4
+          "ruptura_pct": 17.1,
+          "ating_pct_meta": 2.6,
+          "sla_sep_pct": 21.6,
+          "online_pct": 14.0,
+          "gmv_rupturado": 4358.2,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Anel Viário",
@@ -328,9 +354,12 @@
           "pedidos": 55,
           "cancel_pct": 9.8,
           "ruptura_pct": 21.8,
-          "nps": null,
-          "meta_gmv": 8467.49,
-          "ating_pct": 81.2
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 86.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 18432.37,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Calmon Viana",
@@ -338,19 +367,25 @@
           "pedidos": 52,
           "cancel_pct": 7.1,
           "ruptura_pct": 15.4,
-          "nps": null,
-          "meta_gmv": 7785.5,
-          "ating_pct": 88.1
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 100.0,
+          "online_pct": 13.5,
+          "gmv_rupturado": 4664.24,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd. Cumbica",
-          "gmv": 6522.38,
-          "pedidos": 49,
+          "gmv": 6795.99,
+          "pedidos": 50,
           "cancel_pct": 2.0,
-          "ruptura_pct": 20.4,
-          "nps": null,
-          "meta_gmv": 8629.69,
-          "ating_pct": 75.6
+          "ruptura_pct": 22.0,
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 66.1,
+          "online_pct": 14.0,
+          "gmv_rupturado": 14542.65,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Zeferina",
@@ -358,9 +393,12 @@
           "pedidos": 61,
           "cancel_pct": 6.2,
           "ruptura_pct": 11.5,
-          "nps": null,
-          "meta_gmv": 5941.06,
-          "ating_pct": 105.5
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 96.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 6676.15,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Solar - Sto André",
@@ -368,9 +406,12 @@
           "pedidos": 49,
           "cancel_pct": 5.8,
           "ruptura_pct": 18.4,
-          "nps": null,
-          "meta_gmv": 8590.36,
-          "ating_pct": 69.4
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 64.2,
+          "online_pct": 14.0,
+          "gmv_rupturado": 9675.12,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Dona Benta",
@@ -378,9 +419,12 @@
           "pedidos": 45,
           "cancel_pct": 2.2,
           "ruptura_pct": 28.9,
-          "nps": null,
-          "meta_gmv": 5982.37,
-          "ating_pct": 98.9
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 65.2,
+          "online_pct": 14.0,
+          "gmv_rupturado": 10597.48,
+          "gmv_recuperado": 550.62,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Curuça",
@@ -388,9 +432,12 @@
           "pedidos": 66,
           "cancel_pct": 0.0,
           "ruptura_pct": 10.6,
-          "nps": null,
-          "meta_gmv": 4872.68,
-          "ating_pct": 119.0
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 79.1,
+          "online_pct": 14.8,
+          "gmv_rupturado": 14611.74,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Pq Paulistano",
@@ -398,9 +445,12 @@
           "pedidos": 38,
           "cancel_pct": 0.0,
           "ruptura_pct": 28.9,
-          "nps": null,
-          "meta_gmv": 8077.42,
-          "ating_pct": 70.7
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 60.5,
+          "online_pct": 14.0,
+          "gmv_rupturado": 9405.76,
+          "gmv_recuperado": 106.4,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaim Paulista",
@@ -408,9 +458,12 @@
           "pedidos": 45,
           "cancel_pct": 2.2,
           "ruptura_pct": 22.2,
-          "nps": null,
-          "meta_gmv": 10075.12,
-          "ating_pct": 54.2
+          "ating_pct_meta": 1.2,
+          "sla_sep_pct": 50.0,
+          "online_pct": 14.6,
+          "gmv_rupturado": 10711.1,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Volta Redonda",
@@ -418,9 +471,12 @@
           "pedidos": 32,
           "cancel_pct": 3.0,
           "ruptura_pct": 18.8,
-          "nps": null,
-          "meta_gmv": 8290.01,
-          "ating_pct": 64.5
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 73.0,
+          "online_pct": 13.0,
+          "gmv_rupturado": 2572.02,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - São José",
@@ -428,9 +484,12 @@
           "pedidos": 41,
           "cancel_pct": 4.7,
           "ruptura_pct": 22.0,
-          "nps": null,
-          "meta_gmv": 7078.09,
-          "ating_pct": 62.5
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 83.3,
+          "online_pct": 14.0,
+          "gmv_rupturado": 6201.89,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Camilopolis",
@@ -438,9 +497,12 @@
           "pedidos": 34,
           "cancel_pct": 12.8,
           "ruptura_pct": 29.4,
-          "nps": null,
-          "meta_gmv": 7237.99,
-          "ating_pct": 57.4
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 88.6,
+          "online_pct": 13.0,
+          "gmv_rupturado": 6471.27,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Aimoré",
@@ -448,9 +510,12 @@
           "pedidos": 38,
           "cancel_pct": 0.0,
           "ruptura_pct": 7.9,
-          "nps": null,
-          "meta_gmv": 3286.79,
-          "ating_pct": 126.2
+          "ating_pct_meta": 3.3,
+          "sla_sep_pct": 89.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2664.94,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Taubaté",
@@ -458,9 +523,12 @@
           "pedidos": 36,
           "cancel_pct": 5.3,
           "ruptura_pct": 8.3,
-          "nps": null,
-          "meta_gmv": 5261.6,
-          "ating_pct": 77.6
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 87.2,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2123.44,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Kemel",
@@ -468,9 +536,12 @@
           "pedidos": 36,
           "cancel_pct": 16.3,
           "ruptura_pct": 13.9,
-          "nps": null,
-          "meta_gmv": 4026.19,
-          "ating_pct": 97.8
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 24.3,
+          "online_pct": 14.0,
+          "gmv_rupturado": 5654.07,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Tiburcio 2",
@@ -478,9 +549,12 @@
           "pedidos": 38,
           "cancel_pct": 5.0,
           "ruptura_pct": 18.4,
-          "nps": null,
-          "meta_gmv": 4036.4,
-          "ating_pct": 91.3
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 69.2,
+          "online_pct": 14.0,
+          "gmv_rupturado": 3864.8,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Ermelino Matarazzo",
@@ -488,9 +562,12 @@
           "pedidos": 32,
           "cancel_pct": 3.0,
           "ruptura_pct": 28.1,
-          "nps": null,
-          "meta_gmv": 4273.15,
-          "ating_pct": 74.6
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 73.5,
+          "online_pct": 9.0,
+          "gmv_rupturado": 4955.61,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Jd Edmundo",
@@ -498,9 +575,12 @@
           "pedidos": 25,
           "cancel_pct": 0.0,
           "ruptura_pct": 12.0,
-          "nps": null,
-          "meta_gmv": 4959.02,
-          "ating_pct": 63.9
+          "ating_pct_meta": 2.6,
+          "sla_sep_pct": 100.0,
+          "online_pct": 14.5,
+          "gmv_rupturado": 995.5,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Lorena",
@@ -508,9 +588,12 @@
           "pedidos": 28,
           "cancel_pct": 3.4,
           "ruptura_pct": 10.7,
-          "nps": null,
-          "meta_gmv": 3322.49,
-          "ating_pct": 91.3
+          "ating_pct_meta": 3.1,
+          "sla_sep_pct": 86.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 562.02,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Praia Grande Ocian",
@@ -518,29 +601,25 @@
           "pedidos": 29,
           "cancel_pct": 3.3,
           "ruptura_pct": 17.2,
-          "nps": null,
-          "meta_gmv": 1537.57,
-          "ating_pct": 173.5
+          "ating_pct_meta": 5.8,
+          "sla_sep_pct": 96.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1870.2,
+          "gmv_recuperado": 258.6,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Alvorada Gru",
           "gmv": 0.0,
           "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
-        },
-        {
-          "nome": "Nagumo Express - Elenco",
-          "gmv": 0.0,
-          "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "D-7": [
@@ -550,9 +629,12 @@
           "pedidos": 85,
           "cancel_pct": 3.4,
           "ruptura_pct": 15.3,
-          "nps": null,
-          "meta_gmv": 15758.34,
-          "ating_pct": 79.6
+          "ating_pct_meta": 0.9,
+          "sla_sep_pct": 81.1,
+          "online_pct": 14.0,
+          "gmv_rupturado": 17941.44,
+          "gmv_recuperado": 4321.68,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Diva",
@@ -560,9 +642,12 @@
           "pedidos": 60,
           "cancel_pct": 3.2,
           "ruptura_pct": 15.0,
-          "nps": null,
-          "meta_gmv": 10152.34,
-          "ating_pct": 88.0
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 90.9,
+          "online_pct": 12.0,
+          "gmv_rupturado": 11199.68,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Solar - Sto André",
@@ -570,19 +655,12 @@
           "pedidos": 56,
           "cancel_pct": 6.7,
           "ruptura_pct": 17.9,
-          "nps": null,
-          "meta_gmv": 9189.49,
-          "ating_pct": 95.8
-        },
-        {
-          "nome": "Nagumo Express - Mauá",
-          "gmv": 8049.01,
-          "pedidos": 61,
-          "cancel_pct": 9.0,
-          "ruptura_pct": 26.2,
-          "nps": null,
-          "meta_gmv": 11795.77,
-          "ating_pct": 68.2
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 51.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 11319.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pires do Rio",
@@ -590,9 +668,12 @@
           "pedidos": 56,
           "cancel_pct": 1.8,
           "ruptura_pct": 30.4,
-          "nps": null,
-          "meta_gmv": 16565.88,
-          "ating_pct": 43.9
+          "ating_pct_meta": 0.8,
+          "sla_sep_pct": 84.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 17500.14,
+          "gmv_recuperado": 2110.14,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Volta Redonda",
@@ -600,9 +681,12 @@
           "pedidos": 40,
           "cancel_pct": 9.1,
           "ruptura_pct": 20.0,
-          "nps": null,
-          "meta_gmv": 8868.2,
-          "ating_pct": 79.6
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 68.9,
+          "online_pct": 13.0,
+          "gmv_rupturado": 4266.68,
+          "gmv_recuperado": 331.76,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Anel Viário",
@@ -610,9 +694,12 @@
           "pedidos": 37,
           "cancel_pct": 2.6,
           "ruptura_pct": 32.4,
-          "nps": null,
-          "meta_gmv": 9058.05,
-          "ating_pct": 74.9
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 66.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 8634.36,
+          "gmv_recuperado": 327.56,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Mogi",
@@ -620,9 +707,12 @@
           "pedidos": 51,
           "cancel_pct": 8.9,
           "ruptura_pct": 13.7,
-          "nps": null,
-          "meta_gmv": 10476.69,
-          "ating_pct": 63.4
+          "ating_pct_meta": 1.1,
+          "sla_sep_pct": 76.8,
+          "online_pct": 13.5,
+          "gmv_rupturado": 6496.56,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande",
@@ -630,9 +720,12 @@
           "pedidos": 37,
           "cancel_pct": 5.1,
           "ruptura_pct": 24.3,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 72.5,
+          "online_pct": 14.0,
+          "gmv_rupturado": 7989.93,
+          "gmv_recuperado": 294.06,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pq Continental Gru",
@@ -640,9 +733,12 @@
           "pedidos": 44,
           "cancel_pct": 10.2,
           "ruptura_pct": 27.3,
-          "nps": null,
-          "meta_gmv": 9503.37,
-          "ating_pct": 65.2
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 78.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 10041.57,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Bonsucesso",
@@ -650,9 +746,12 @@
           "pedidos": 42,
           "cancel_pct": 2.3,
           "ruptura_pct": 21.4,
-          "nps": null,
-          "meta_gmv": 6346.05,
-          "ating_pct": 90.6
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 62.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 8851.98,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Calmon Viana",
@@ -660,9 +759,12 @@
           "pedidos": 43,
           "cancel_pct": 2.3,
           "ruptura_pct": 14.0,
-          "nps": null,
-          "meta_gmv": 8328.49,
-          "ating_pct": 68.3
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 91.1,
+          "online_pct": 14.0,
+          "gmv_rupturado": 5273.84,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd. Cumbica",
@@ -670,9 +772,12 @@
           "pedidos": 31,
           "cancel_pct": 16.2,
           "ruptura_pct": 16.1,
-          "nps": null,
-          "meta_gmv": 9231.56,
-          "ating_pct": 59.7
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 82.4,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2789.43,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Osasco",
@@ -680,9 +785,12 @@
           "pedidos": 38,
           "cancel_pct": 7.3,
           "ruptura_pct": 23.7,
-          "nps": null,
-          "meta_gmv": 8967.44,
-          "ating_pct": 60.2
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 68.3,
+          "online_pct": 13.0,
+          "gmv_rupturado": 9731.35,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pq Paulistano",
@@ -690,9 +798,12 @@
           "pedidos": 40,
           "cancel_pct": 0.0,
           "ruptura_pct": 15.0,
-          "nps": null,
-          "meta_gmv": 8640.78,
-          "ating_pct": 57.9
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 59.1,
+          "online_pct": 14.0,
+          "gmv_rupturado": 5384.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaim Paulista",
@@ -700,9 +811,12 @@
           "pedidos": 36,
           "cancel_pct": 7.7,
           "ruptura_pct": 13.9,
-          "nps": null,
-          "meta_gmv": 10777.8,
-          "ating_pct": 45.8
+          "ating_pct_meta": 1.2,
+          "sla_sep_pct": 84.1,
+          "online_pct": 15.0,
+          "gmv_rupturado": 4544.28,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Mazza",
@@ -710,9 +824,12 @@
           "pedidos": 37,
           "cancel_pct": 0.0,
           "ruptura_pct": 16.2,
-          "nps": null,
-          "meta_gmv": 8007.91,
-          "ating_pct": 59.8
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 88.4,
+          "online_pct": 13.0,
+          "gmv_rupturado": 1992.45,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Atibaia",
@@ -720,9 +837,12 @@
           "pedidos": 23,
           "cancel_pct": 0.0,
           "ruptura_pct": 26.1,
-          "nps": null,
-          "meta_gmv": 8177.33,
-          "ating_pct": 58.5
+          "ating_pct_meta": 2.5,
+          "sla_sep_pct": 69.0,
+          "online_pct": 13.0,
+          "gmv_rupturado": 3734.97,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Zeferina",
@@ -730,9 +850,12 @@
           "pedidos": 46,
           "cancel_pct": 0.0,
           "ruptura_pct": 8.7,
-          "nps": null,
-          "meta_gmv": 6355.41,
-          "ating_pct": 74.9
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 83.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1337.22,
+          "gmv_recuperado": 74.06,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Camilopolis",
@@ -740,9 +863,12 @@
           "pedidos": 33,
           "cancel_pct": 0.0,
           "ruptura_pct": 48.5,
-          "nps": null,
-          "meta_gmv": 7742.8,
-          "ating_pct": 58.7
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 84.2,
+          "online_pct": 13.0,
+          "gmv_rupturado": 11009.46,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Curuça",
@@ -750,9 +876,12 @@
           "pedidos": 42,
           "cancel_pct": 8.7,
           "ruptura_pct": 0.0,
-          "nps": null,
-          "meta_gmv": 5212.53,
-          "ating_pct": 82.9
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 90.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Itaqua",
@@ -760,9 +889,12 @@
           "pedidos": 29,
           "cancel_pct": 0.0,
           "ruptura_pct": 20.7,
-          "nps": null,
-          "meta_gmv": 6525.53,
-          "ating_pct": 59.2
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 64.5,
+          "online_pct": 14.0,
+          "gmv_rupturado": 4433.23,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Dona Benta",
@@ -770,9 +902,12 @@
           "pedidos": 25,
           "cancel_pct": 0.0,
           "ruptura_pct": 28.0,
-          "nps": null,
-          "meta_gmv": 6399.61,
-          "ating_pct": 60.3
+          "ating_pct_meta": 2.4,
+          "sla_sep_pct": 81.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2812.5,
+          "gmv_recuperado": 539.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - São José",
@@ -780,9 +915,12 @@
           "pedidos": 30,
           "cancel_pct": 0.0,
           "ruptura_pct": 20.0,
-          "nps": null,
-          "meta_gmv": 7571.74,
-          "ating_pct": 46.9
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 44.1,
+          "online_pct": 14.0,
+          "gmv_rupturado": 6090.9,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - S. André Centro",
@@ -790,9 +928,12 @@
           "pedidos": 22,
           "cancel_pct": 4.3,
           "ruptura_pct": 27.3,
-          "nps": null,
-          "meta_gmv": 8374.58,
-          "ating_pct": 34.8
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 63.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 5624.19,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Tiburcio 2",
@@ -800,9 +941,12 @@
           "pedidos": 31,
           "cancel_pct": 0.0,
           "ruptura_pct": 32.3,
-          "nps": null,
-          "meta_gmv": 4317.91,
-          "ating_pct": 66.3
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 71.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 9193.36,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Kemel",
@@ -810,9 +954,12 @@
           "pedidos": 30,
           "cancel_pct": 3.2,
           "ruptura_pct": 13.3,
-          "nps": null,
-          "meta_gmv": 4306.99,
-          "ating_pct": 64.5
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 100.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1452.35,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd Edmundo",
@@ -820,9 +967,12 @@
           "pedidos": 16,
           "cancel_pct": 0.0,
           "ruptura_pct": 6.3,
-          "nps": null,
-          "meta_gmv": 5304.89,
-          "ating_pct": 46.5
+          "ating_pct_meta": 2.9,
+          "sla_sep_pct": 100.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 466.24,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Aimoré",
@@ -830,9 +980,12 @@
           "pedidos": 23,
           "cancel_pct": 8.0,
           "ruptura_pct": 13.0,
-          "nps": null,
-          "meta_gmv": 3516.02,
-          "ating_pct": 58.2
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 95.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2585.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande Ocian",
@@ -840,9 +993,12 @@
           "pedidos": 16,
           "cancel_pct": 5.9,
           "ruptura_pct": 37.5,
-          "nps": null,
-          "meta_gmv": 1644.81,
-          "ating_pct": 123.6
+          "ating_pct_meta": 7.3,
+          "sla_sep_pct": 93.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2028.1,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Lorena",
@@ -850,9 +1006,12 @@
           "pedidos": 17,
           "cancel_pct": 0.0,
           "ruptura_pct": 35.3,
-          "nps": null,
-          "meta_gmv": 3554.22,
-          "ating_pct": 57.1
+          "ating_pct_meta": 3.4,
+          "sla_sep_pct": 83.3,
+          "online_pct": 13.5,
+          "gmv_rupturado": 1836.68,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Taubaté",
@@ -860,9 +1019,12 @@
           "pedidos": 14,
           "cancel_pct": 0.0,
           "ruptura_pct": 14.3,
-          "nps": null,
-          "meta_gmv": 5628.57,
-          "ating_pct": 32.5
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 100.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 162.96,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Ermelino Matarazzo",
@@ -870,29 +1032,25 @@
           "pedidos": 10,
           "cancel_pct": 0.0,
           "ruptura_pct": 50.0,
-          "nps": null,
-          "meta_gmv": 4571.18,
-          "ating_pct": 16.5
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 90.0,
+          "online_pct": 9.0,
+          "gmv_rupturado": 641.8,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Alvorada Gru",
           "gmv": 0.0,
           "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
-        },
-        {
-          "nome": "Nagumo Express - Elenco",
-          "gmv": 0.0,
-          "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "D-15": [
@@ -902,9 +1060,12 @@
           "pedidos": 96,
           "cancel_pct": 1.0,
           "ruptura_pct": 22.9,
-          "nps": null,
-          "meta_gmv": 14820.05,
-          "ating_pct": 91.3
+          "ating_pct_meta": 0.9,
+          "sla_sep_pct": 78.6,
+          "online_pct": 13.0,
+          "gmv_rupturado": 35691.15,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Mogi",
@@ -912,9 +1073,12 @@
           "pedidos": 69,
           "cancel_pct": 2.8,
           "ruptura_pct": 26.1,
-          "nps": null,
-          "meta_gmv": 9852.89,
-          "ating_pct": 97.2
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 56.9,
+          "online_pct": 14.0,
+          "gmv_rupturado": 23116.89,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Volta Redonda",
@@ -922,9 +1086,12 @@
           "pedidos": 44,
           "cancel_pct": 6.4,
           "ruptura_pct": 22.7,
-          "nps": null,
-          "meta_gmv": 8340.17,
-          "ating_pct": 88.8
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 34.0,
+          "online_pct": 13.0,
+          "gmv_rupturado": 7497.91,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Dona Benta",
@@ -932,9 +1099,12 @@
           "pedidos": 41,
           "cancel_pct": 2.4,
           "ruptura_pct": 22.0,
-          "nps": null,
-          "meta_gmv": 6018.56,
-          "ating_pct": 120.7
+          "ating_pct_meta": 2.9,
+          "sla_sep_pct": 44.2,
+          "online_pct": 14.0,
+          "gmv_rupturado": 10995.6,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Diva",
@@ -942,9 +1112,12 @@
           "pedidos": 61,
           "cancel_pct": 0.0,
           "ruptura_pct": 23.0,
-          "nps": null,
-          "meta_gmv": 9547.85,
-          "ating_pct": 75.3
+          "ating_pct_meta": 1.2,
+          "sla_sep_pct": 89.1,
+          "online_pct": 12.0,
+          "gmv_rupturado": 16782.32,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Anel Viário",
@@ -952,9 +1125,12 @@
           "pedidos": 39,
           "cancel_pct": 2.5,
           "ruptura_pct": 17.9,
-          "nps": null,
-          "meta_gmv": 8518.72,
-          "ating_pct": 79.8
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 63.6,
+          "online_pct": 14.0,
+          "gmv_rupturado": 7592.8,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pires do Rio",
@@ -962,9 +1138,12 @@
           "pedidos": 54,
           "cancel_pct": 1.8,
           "ruptura_pct": 37.0,
-          "nps": null,
-          "meta_gmv": 15579.51,
-          "ating_pct": 42.1
+          "ating_pct_meta": 0.8,
+          "sla_sep_pct": 67.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 22610.5,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Praia Grande",
@@ -972,9 +1151,12 @@
           "pedidos": 45,
           "cancel_pct": 0.0,
           "ruptura_pct": 33.3,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 59.2,
+          "online_pct": 14.0,
+          "gmv_rupturado": 20228.4,
+          "gmv_recuperado": 582.3,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pq Paulistano",
@@ -982,9 +1164,12 @@
           "pedidos": 43,
           "cancel_pct": 0.0,
           "ruptura_pct": 7.0,
-          "nps": null,
-          "meta_gmv": 8126.29,
-          "ating_pct": 70.1
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 76.1,
+          "online_pct": 14.0,
+          "gmv_rupturado": 3524.28,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Osasco",
@@ -992,9 +1177,12 @@
           "pedidos": 34,
           "cancel_pct": 2.9,
           "ruptura_pct": 29.4,
-          "nps": null,
-          "meta_gmv": 8433.5,
-          "ating_pct": 64.5
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 50.0,
+          "online_pct": 11.9,
+          "gmv_rupturado": 5042.1,
+          "gmv_recuperado": 226.1,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Atibaia",
@@ -1002,9 +1190,12 @@
           "pedidos": 36,
           "cancel_pct": 14.3,
           "ruptura_pct": 30.6,
-          "nps": null,
-          "meta_gmv": 7690.44,
-          "ating_pct": 70.3
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 35.7,
+          "online_pct": 13.0,
+          "gmv_rupturado": 18643.38,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Taubaté",
@@ -1012,9 +1203,12 @@
           "pedidos": 30,
           "cancel_pct": 3.2,
           "ruptura_pct": 23.3,
-          "nps": null,
-          "meta_gmv": 5293.43,
-          "ating_pct": 96.4
+          "ating_pct_meta": 3.1,
+          "sla_sep_pct": 76.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 3245.39,
+          "gmv_recuperado": 119.97,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - São José",
@@ -1022,9 +1216,12 @@
           "pedidos": 35,
           "cancel_pct": 5.4,
           "ruptura_pct": 14.3,
-          "nps": null,
-          "meta_gmv": 7120.91,
-          "ating_pct": 68.9
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 52.5,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2787.21,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Mazza",
@@ -1032,9 +1229,12 @@
           "pedidos": 39,
           "cancel_pct": 0.0,
           "ruptura_pct": 17.9,
-          "nps": null,
-          "meta_gmv": 7531.1,
-          "ating_pct": 65.1
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 95.3,
+          "online_pct": 13.0,
+          "gmv_rupturado": 3692.91,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Bonsucesso",
@@ -1042,9 +1242,12 @@
           "pedidos": 38,
           "cancel_pct": 5.0,
           "ruptura_pct": 42.1,
-          "nps": null,
-          "meta_gmv": 5968.2,
-          "ating_pct": 81.0
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 79.1,
+          "online_pct": 14.0,
+          "gmv_rupturado": 18511.2,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Calmon Viana",
@@ -1052,9 +1255,12 @@
           "pedidos": 36,
           "cancel_pct": 5.3,
           "ruptura_pct": 16.7,
-          "nps": null,
-          "meta_gmv": 7832.6,
-          "ating_pct": 60.9
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 86.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 3669.66,
+          "gmv_recuperado": 409.64,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pq Continental Gru",
@@ -1062,9 +1268,12 @@
           "pedidos": 34,
           "cancel_pct": 12.8,
           "ruptura_pct": 29.4,
-          "nps": null,
-          "meta_gmv": 8937.52,
-          "ating_pct": 47.7
+          "ating_pct_meta": 1.2,
+          "sla_sep_pct": 55.3,
+          "online_pct": 14.0,
+          "gmv_rupturado": 9934.08,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - S. André Centro",
@@ -1072,9 +1281,12 @@
           "pedidos": 30,
           "cancel_pct": 6.3,
           "ruptura_pct": 26.7,
-          "nps": null,
-          "meta_gmv": 7875.94,
-          "ating_pct": 52.6
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 70.6,
+          "online_pct": 14.0,
+          "gmv_rupturado": 9032.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Zeferina",
@@ -1082,9 +1294,12 @@
           "pedidos": 44,
           "cancel_pct": 2.2,
           "ruptura_pct": 15.9,
-          "nps": null,
-          "meta_gmv": 5977.0,
-          "ating_pct": 67.5
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 82.2,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1748.25,
+          "gmv_recuperado": 421.2,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Solar - Sto André",
@@ -1092,9 +1307,12 @@
           "pedidos": 26,
           "cancel_pct": 0.0,
           "ruptura_pct": 26.9,
-          "nps": null,
-          "meta_gmv": 8642.32,
-          "ating_pct": 46.2
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 36.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 5240.04,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaim Paulista",
@@ -1102,9 +1320,12 @@
           "pedidos": 31,
           "cancel_pct": 6.1,
           "ruptura_pct": 29.0,
-          "nps": null,
-          "meta_gmv": 10136.07,
-          "ating_pct": 37.7
+          "ating_pct_meta": 1.1,
+          "sla_sep_pct": 75.0,
+          "online_pct": 15.0,
+          "gmv_rupturado": 4543.77,
+          "gmv_recuperado": 83.82,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd. Cumbica",
@@ -1112,9 +1333,12 @@
           "pedidos": 31,
           "cancel_pct": 3.1,
           "ruptura_pct": 22.6,
-          "nps": null,
-          "meta_gmv": 8681.89,
-          "ating_pct": 41.1
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 84.4,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2416.96,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaqua",
@@ -1122,19 +1346,12 @@
           "pedidos": 28,
           "cancel_pct": 12.5,
           "ruptura_pct": 25.0,
-          "nps": null,
-          "meta_gmv": 6136.99,
-          "ating_pct": 57.8
-        },
-        {
-          "nome": "Nagumo Express - Mauá",
-          "gmv": 3495.56,
-          "pedidos": 23,
-          "cancel_pct": 0.0,
-          "ruptura_pct": 30.4,
-          "nps": null,
-          "meta_gmv": 11093.42,
-          "ating_pct": 31.5
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 87.5,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2361.92,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Camilopolis",
@@ -1142,9 +1359,12 @@
           "pedidos": 29,
           "cancel_pct": 3.3,
           "ruptura_pct": 34.5,
-          "nps": null,
-          "meta_gmv": 7281.78,
-          "ating_pct": 47.8
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 41.9,
+          "online_pct": 13.0,
+          "gmv_rupturado": 5004.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Curuça",
@@ -1152,9 +1372,12 @@
           "pedidos": 32,
           "cancel_pct": 0.0,
           "ruptura_pct": 15.6,
-          "nps": null,
-          "meta_gmv": 4902.16,
-          "ating_pct": 66.3
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 91.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2922.56,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Aimoré",
@@ -1162,9 +1385,12 @@
           "pedidos": 23,
           "cancel_pct": 4.2,
           "ruptura_pct": 21.7,
-          "nps": null,
-          "meta_gmv": 3306.67,
-          "ating_pct": 92.8
+          "ating_pct_meta": 3.9,
+          "sla_sep_pct": 91.3,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1015.2,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Tiburcio 2",
@@ -1172,9 +1398,12 @@
           "pedidos": 30,
           "cancel_pct": 0.0,
           "ruptura_pct": 20.0,
-          "nps": null,
-          "meta_gmv": 4060.81,
-          "ating_pct": 69.3
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 90.3,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2087.1,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd Edmundo",
@@ -1182,9 +1411,12 @@
           "pedidos": 19,
           "cancel_pct": 0.0,
           "ruptura_pct": 15.8,
-          "nps": null,
-          "meta_gmv": 4989.02,
-          "ating_pct": 47.1
+          "ating_pct_meta": 2.5,
+          "sla_sep_pct": 100.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1951.3,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Lorena",
@@ -1192,9 +1424,12 @@
           "pedidos": 16,
           "cancel_pct": 20.0,
           "ruptura_pct": 25.0,
-          "nps": null,
-          "meta_gmv": 3342.59,
-          "ating_pct": 63.1
+          "ating_pct_meta": 3.2,
+          "sla_sep_pct": 82.4,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1422.0,
+          "gmv_recuperado": 64.4,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Kemel",
@@ -1202,9 +1437,12 @@
           "pedidos": 24,
           "cancel_pct": 7.7,
           "ruptura_pct": 4.2,
-          "nps": null,
-          "meta_gmv": 4050.55,
-          "ating_pct": 50.1
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 76.9,
+          "online_pct": 14.0,
+          "gmv_rupturado": 645.32,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Ermelino Matarazzo",
@@ -1212,9 +1450,12 @@
           "pedidos": 19,
           "cancel_pct": 0.0,
           "ruptura_pct": 21.1,
-          "nps": null,
-          "meta_gmv": 4299.0,
-          "ating_pct": 46.4
+          "ating_pct_meta": 2.4,
+          "sla_sep_pct": 81.8,
+          "online_pct": 9.0,
+          "gmv_rupturado": 2859.12,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande Ocian",
@@ -1222,29 +1463,25 @@
           "pedidos": 14,
           "cancel_pct": 0.0,
           "ruptura_pct": 28.6,
-          "nps": null,
-          "meta_gmv": 1546.87,
-          "ating_pct": 125.4
+          "ating_pct_meta": 9.0,
+          "sla_sep_pct": 86.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 772.66,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Alvorada Gru",
           "gmv": 0.0,
           "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
-        },
-        {
-          "nome": "Nagumo Express - Elenco",
-          "gmv": 0.0,
-          "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "D-21": [
@@ -1254,9 +1491,12 @@
           "pedidos": 84,
           "cancel_pct": 1.2,
           "ruptura_pct": 32.1,
-          "nps": null,
-          "meta_gmv": 15614.0,
-          "ating_pct": 67.4
+          "ating_pct_meta": 0.8,
+          "sla_sep_pct": 92.2,
+          "online_pct": 13.0,
+          "gmv_rupturado": 41620.25,
+          "gmv_recuperado": 457.3,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Mogi",
@@ -1264,9 +1504,12 @@
           "pedidos": 64,
           "cancel_pct": 3.0,
           "ruptura_pct": 23.4,
-          "nps": null,
-          "meta_gmv": 10380.73,
-          "ating_pct": 96.3
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 80.3,
+          "online_pct": 12.9,
+          "gmv_rupturado": 18848.94,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Vila Diva",
@@ -1274,9 +1517,12 @@
           "pedidos": 59,
           "cancel_pct": 1.7,
           "ruptura_pct": 25.4,
-          "nps": null,
-          "meta_gmv": 10059.35,
-          "ating_pct": 90.3
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 65.6,
+          "online_pct": 12.0,
+          "gmv_rupturado": 16123.8,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pires do Rio",
@@ -1284,9 +1530,12 @@
           "pedidos": 64,
           "cancel_pct": 4.5,
           "ruptura_pct": 23.4,
-          "nps": null,
-          "meta_gmv": 16414.15,
-          "ating_pct": 51.6
+          "ating_pct_meta": 0.8,
+          "sla_sep_pct": 81.4,
+          "online_pct": 14.0,
+          "gmv_rupturado": 21574.67,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Osasco",
@@ -1294,9 +1543,12 @@
           "pedidos": 31,
           "cancel_pct": 16.2,
           "ruptura_pct": 35.5,
-          "nps": null,
-          "meta_gmv": 8885.31,
-          "ating_pct": 78.1
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 41.9,
+          "online_pct": 10.9,
+          "gmv_rupturado": 11111.1,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Volta Redonda",
@@ -1304,9 +1556,12 @@
           "pedidos": 41,
           "cancel_pct": 16.3,
           "ruptura_pct": 17.1,
-          "nps": null,
-          "meta_gmv": 8786.97,
-          "ating_pct": 75.4
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 15.2,
+          "online_pct": 12.0,
+          "gmv_rupturado": 5489.96,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Atibaia",
@@ -1314,19 +1569,12 @@
           "pedidos": 45,
           "cancel_pct": 6.3,
           "ruptura_pct": 46.7,
-          "nps": null,
-          "meta_gmv": 8102.44,
-          "ating_pct": 79.9
-        },
-        {
-          "nome": "Nagumo Express - Mauá",
-          "gmv": 6344.08,
-          "pedidos": 40,
-          "cancel_pct": 7.0,
-          "ruptura_pct": 35.0,
-          "nps": null,
-          "meta_gmv": 11687.73,
-          "ating_pct": 54.3
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 41.2,
+          "online_pct": 12.5,
+          "gmv_rupturado": 30374.4,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - São José",
@@ -1334,9 +1582,12 @@
           "pedidos": 42,
           "cancel_pct": 6.7,
           "ruptura_pct": 42.9,
-          "nps": null,
-          "meta_gmv": 7502.39,
-          "ating_pct": 82.8
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 30.2,
+          "online_pct": 14.0,
+          "gmv_rupturado": 16990.65,
+          "gmv_recuperado": 1359.0,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Solar - Sto André",
@@ -1344,9 +1595,12 @@
           "pedidos": 41,
           "cancel_pct": 2.4,
           "ruptura_pct": 14.6,
-          "nps": null,
-          "meta_gmv": 9105.32,
-          "ating_pct": 66.1
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 0.0,
+          "online_pct": 13.5,
+          "gmv_rupturado": 2830.8,
+          "gmv_recuperado": 271.32,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Mazza",
@@ -1354,9 +1608,12 @@
           "pedidos": 31,
           "cancel_pct": 0.0,
           "ruptura_pct": 12.9,
-          "nps": null,
-          "meta_gmv": 7934.57,
-          "ating_pct": 75.2
+          "ating_pct_meta": 2.4,
+          "sla_sep_pct": 93.8,
+          "online_pct": 13.0,
+          "gmv_rupturado": 1340.75,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Bonsucesso",
@@ -1364,9 +1621,12 @@
           "pedidos": 40,
           "cancel_pct": 4.8,
           "ruptura_pct": 35.0,
-          "nps": null,
-          "meta_gmv": 6287.93,
-          "ating_pct": 92.8
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 77.3,
+          "online_pct": 13.8,
+          "gmv_rupturado": 16432.5,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Pq Continental Gru",
@@ -1374,9 +1634,12 @@
           "pedidos": 42,
           "cancel_pct": 2.3,
           "ruptura_pct": 23.8,
-          "nps": null,
-          "meta_gmv": 9416.32,
-          "ating_pct": 60.0
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 68.8,
+          "online_pct": 13.8,
+          "gmv_rupturado": 9183.51,
+          "gmv_recuperado": 602.86,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Calmon Viana",
@@ -1384,9 +1647,12 @@
           "pedidos": 33,
           "cancel_pct": 2.9,
           "ruptura_pct": 12.1,
-          "nps": null,
-          "meta_gmv": 8252.21,
-          "ating_pct": 67.8
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 82.4,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1392.64,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Dona Benta",
@@ -1394,9 +1660,12 @@
           "pedidos": 36,
           "cancel_pct": 2.7,
           "ruptura_pct": 30.6,
-          "nps": null,
-          "meta_gmv": 6340.99,
-          "ating_pct": 78.2
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 32.4,
+          "online_pct": 14.0,
+          "gmv_rupturado": 6188.62,
+          "gmv_recuperado": 150.96,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd Edmundo",
@@ -1404,9 +1673,12 @@
           "pedidos": 23,
           "cancel_pct": 8.0,
           "ruptura_pct": 13.0,
-          "nps": null,
-          "meta_gmv": 5256.3,
-          "ating_pct": 91.1
+          "ating_pct_meta": 3.6,
+          "sla_sep_pct": 100.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1226.75,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd. Cumbica",
@@ -1414,9 +1686,12 @@
           "pedidos": 38,
           "cancel_pct": 0.0,
           "ruptura_pct": 26.3,
-          "nps": null,
-          "meta_gmv": 9147.01,
-          "ating_pct": 51.7
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 69.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 6644.3,
+          "gmv_recuperado": 221.16,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande",
@@ -1424,9 +1699,12 @@
           "pedidos": 30,
           "cancel_pct": 6.3,
           "ruptura_pct": 26.7,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 90.6,
+          "online_pct": 14.0,
+          "gmv_rupturado": 3431.68,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Camilopolis",
@@ -1434,9 +1712,12 @@
           "pedidos": 30,
           "cancel_pct": 3.2,
           "ruptura_pct": 60.0,
-          "nps": null,
-          "meta_gmv": 7671.88,
-          "ating_pct": 60.0
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 8.8,
+          "online_pct": 12.5,
+          "gmv_rupturado": 17501.36,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Pq Paulistano",
@@ -1444,9 +1725,12 @@
           "pedidos": 29,
           "cancel_pct": 0.0,
           "ruptura_pct": 17.2,
-          "nps": null,
-          "meta_gmv": 8561.64,
-          "ating_pct": 49.8
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 70.6,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1206.11,
+          "gmv_recuperado": 563.18,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - S. André Centro",
@@ -1454,9 +1738,12 @@
           "pedidos": 25,
           "cancel_pct": 0.0,
           "ruptura_pct": 16.0,
-          "nps": null,
-          "meta_gmv": 8297.87,
-          "ating_pct": 48.8
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 38.5,
+          "online_pct": 13.5,
+          "gmv_rupturado": 3301.5,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Taubaté",
@@ -1464,9 +1751,12 @@
           "pedidos": 29,
           "cancel_pct": 6.5,
           "ruptura_pct": 10.3,
-          "nps": null,
-          "meta_gmv": 5577.02,
-          "ating_pct": 69.7
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 76.7,
+          "online_pct": 14.0,
+          "gmv_rupturado": 707.11,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaqua",
@@ -1474,9 +1764,12 @@
           "pedidos": 37,
           "cancel_pct": 9.8,
           "ruptura_pct": 21.6,
-          "nps": null,
-          "meta_gmv": 6465.76,
-          "ating_pct": 58.3
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 59.5,
+          "online_pct": 14.0,
+          "gmv_rupturado": 7112.68,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Anel Viário",
@@ -1484,9 +1777,12 @@
           "pedidos": 26,
           "cancel_pct": 7.1,
           "ruptura_pct": 19.2,
-          "nps": null,
-          "meta_gmv": 8975.09,
-          "ating_pct": 41.7
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 80.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2549.96,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Zeferina",
@@ -1494,9 +1790,12 @@
           "pedidos": 41,
           "cancel_pct": 6.8,
           "ruptura_pct": 4.9,
-          "nps": null,
-          "meta_gmv": 6297.2,
-          "ating_pct": 58.7
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 84.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1366.2,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Curuça",
@@ -1504,9 +1803,12 @@
           "pedidos": 31,
           "cancel_pct": 3.1,
           "ruptura_pct": 12.9,
-          "nps": null,
-          "meta_gmv": 5164.79,
-          "ating_pct": 70.5
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 96.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2561.6,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaim Paulista",
@@ -1514,9 +1816,12 @@
           "pedidos": 27,
           "cancel_pct": 6.9,
           "ruptura_pct": 33.3,
-          "nps": null,
-          "meta_gmv": 10679.08,
-          "ating_pct": 33.7
+          "ating_pct_meta": 1.2,
+          "sla_sep_pct": 93.9,
+          "online_pct": 14.0,
+          "gmv_rupturado": 2911.02,
+          "gmv_recuperado": 186.18,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Tiburcio 2",
@@ -1524,9 +1829,12 @@
           "pedidos": 25,
           "cancel_pct": 3.8,
           "ruptura_pct": 52.0,
-          "nps": null,
-          "meta_gmv": 4278.36,
-          "ating_pct": 81.4
+          "ating_pct_meta": 3.1,
+          "sla_sep_pct": 63.0,
+          "online_pct": 13.8,
+          "gmv_rupturado": 10780.38,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Aimoré",
@@ -1534,9 +1842,12 @@
           "pedidos": 20,
           "cancel_pct": 9.1,
           "ruptura_pct": 15.0,
-          "nps": null,
-          "meta_gmv": 3483.82,
-          "ating_pct": 84.2
+          "ating_pct_meta": 3.8,
+          "sla_sep_pct": 83.3,
+          "online_pct": 10.3,
+          "gmv_rupturado": 319.88,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande Ocian",
@@ -1544,9 +1855,12 @@
           "pedidos": 15,
           "cancel_pct": 0.0,
           "ruptura_pct": 46.7,
-          "nps": null,
-          "meta_gmv": 1629.74,
-          "ating_pct": 153.2
+          "ating_pct_meta": 10.2,
+          "sla_sep_pct": 64.7,
+          "online_pct": 13.9,
+          "gmv_rupturado": 6858.9,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Lorena",
@@ -1554,9 +1868,12 @@
           "pedidos": 19,
           "cancel_pct": 0.0,
           "ruptura_pct": 21.1,
-          "nps": null,
-          "meta_gmv": 3521.67,
-          "ating_pct": 62.2
+          "ating_pct_meta": 3.3,
+          "sla_sep_pct": 73.9,
+          "online_pct": 14.0,
+          "gmv_rupturado": 1000.35,
+          "gmv_recuperado": 163.78,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Kemel",
@@ -1564,9 +1881,12 @@
           "pedidos": 19,
           "cancel_pct": 9.5,
           "ruptura_pct": 15.8,
-          "nps": null,
-          "meta_gmv": 4267.55,
-          "ating_pct": 46.8
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 100.0,
+          "online_pct": 14.0,
+          "gmv_rupturado": 466.2,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Ermelino Matarazzo",
@@ -1574,627 +1894,887 @@
           "pedidos": 11,
           "cancel_pct": 0.0,
           "ruptura_pct": 9.1,
-          "nps": null,
-          "meta_gmv": 4529.31,
-          "ating_pct": 33.7
+          "ating_pct_meta": 3.1,
+          "sla_sep_pct": 100.0,
+          "online_pct": 6.9,
+          "gmv_rupturado": 634.81,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Alvorada Gru",
           "gmv": 0.0,
           "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
-        },
-        {
-          "nome": "Nagumo Express - Elenco",
-          "gmv": 0.0,
-          "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "nps": null,
-          "meta_gmv": 0.0,
-          "ating_pct": 0.0
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "MTD": [
         {
           "nome": "Nagumo Express - Barreira Grande",
-          "gmv": 483533.77,
+          "gmv": 13055411.79,
           "pedidos": 3500,
           "cancel_pct": 4.1,
           "ruptura_pct": 20.0,
-          "ating_pct": 79.9,
-          "nps": null
+          "ating_pct_meta": 0.8,
+          "sla_sep_pct": 50.2,
+          "online_pct": 12.1,
+          "gmv_rupturado": 44877252.27,
+          "gmv_recuperado": 1433966.76,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Pires do Rio",
-          "gmv": 451940.07,
+          "gmv": 12202381.89,
           "pedidos": 3412,
           "cancel_pct": 6.4,
           "ruptura_pct": 30.9,
-          "ating_pct": 66.2,
-          "nps": null
+          "ating_pct_meta": 0.7,
+          "sla_sep_pct": 39.2,
+          "online_pct": 12.9,
+          "gmv_rupturado": 75087207.24,
+          "gmv_recuperado": 126301.04,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Vila Diva",
-          "gmv": 365977.0,
+          "gmv": 9881379.0,
           "pedidos": 2709,
           "cancel_pct": 4.7,
           "ruptura_pct": 20.9,
-          "ating_pct": 74.3,
-          "nps": null
+          "ating_pct_meta": 1.2,
+          "sla_sep_pct": 61.3,
+          "online_pct": 10.7,
+          "gmv_rupturado": 33651197.93,
+          "gmv_recuperado": 231391.77,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Mogi",
-          "gmv": 326492.85,
+          "gmv": 8815306.95,
           "pedidos": 2411,
           "cancel_pct": 7.3,
           "ruptura_pct": 20.0,
-          "ating_pct": 88.0,
-          "nps": null
+          "ating_pct_meta": 1.2,
+          "sla_sep_pct": 24.9,
+          "online_pct": 11.9,
+          "gmv_rupturado": 29878974.16,
+          "gmv_recuperado": 336256.46,
+          "nsu_pct": 0.4
         },
         {
           "nome": "Nagumo Express - Osasco",
-          "gmv": 292523.11,
+          "gmv": 7898123.97,
           "pedidos": 2158,
           "cancel_pct": 5.7,
           "ruptura_pct": 29.8,
-          "ating_pct": 76.6,
-          "nps": null
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 31.4,
+          "online_pct": 13.5,
+          "gmv_rupturado": 33888117.12,
+          "gmv_recuperado": 73993.92,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Calmon Viana",
-          "gmv": 268680.23,
+          "gmv": 7254366.21,
           "pedidos": 1969,
           "cancel_pct": 5.0,
           "ruptura_pct": 14.9,
-          "ating_pct": 74.5,
-          "nps": null
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 65.3,
+          "online_pct": 13.4,
+          "gmv_rupturado": 9604146.81,
+          "gmv_recuperado": 484066.23,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande",
-          "gmv": 266054.13,
+          "gmv": 7183461.51,
           "pedidos": 1971,
           "cancel_pct": 5.1,
           "ruptura_pct": 30.2,
-          "ating_pct": 66.8,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 60.6,
+          "online_pct": 13.1,
+          "gmv_rupturado": 31142279.48,
+          "gmv_recuperado": 228268.3,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pq Continental Gru",
-          "gmv": 265000.25,
+          "gmv": 7155006.75,
           "pedidos": 1873,
           "cancel_pct": 6.4,
           "ruptura_pct": 28.2,
-          "ating_pct": 83.9,
-          "nps": null
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 49.6,
+          "online_pct": 12.9,
+          "gmv_rupturado": 20592431.86,
+          "gmv_recuperado": 109349.24,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Mazza",
-          "gmv": 255893.17,
+          "gmv": 6909115.59,
           "pedidos": 1870,
           "cancel_pct": 3.6,
           "ruptura_pct": 18.3,
-          "ating_pct": 83.7,
-          "nps": null
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 83.0,
+          "online_pct": 12.9,
+          "gmv_rupturado": 13121073.6,
+          "gmv_recuperado": 527136.8,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Anel Viário",
-          "gmv": 253331.23,
+          "gmv": 6839943.21,
           "pedidos": 1793,
           "cancel_pct": 7.1,
           "ruptura_pct": 26.1,
-          "ating_pct": 76.7,
-          "nps": null
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 59.1,
+          "online_pct": 13.1,
+          "gmv_rupturado": 20864477.3,
+          "gmv_recuperado": 330280.9,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Volta Redonda",
-          "gmv": 245022.95,
+          "gmv": 6615619.65,
           "pedidos": 1542,
           "cancel_pct": 7.9,
           "ruptura_pct": 21.0,
-          "ating_pct": 93.7,
-          "nps": null
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 42.4,
+          "online_pct": 11.7,
+          "gmv_rupturado": 11416412.16,
+          "gmv_recuperado": 10780.56,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd. Cumbica",
-          "gmv": 235820.18,
+          "gmv": 6367144.86,
           "pedidos": 1648,
           "cancel_pct": 6.4,
           "ruptura_pct": 27.8,
-          "ating_pct": 71.9,
-          "nps": null
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 58.2,
+          "online_pct": 13.4,
+          "gmv_rupturado": 16809056.0,
+          "gmv_recuperado": 332780.8,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Solar - Sto André",
-          "gmv": 235242.27,
+          "gmv": 6351541.29,
           "pedidos": 1702,
           "cancel_pct": 8.5,
           "ruptura_pct": 25.5,
-          "ating_pct": 85.1,
-          "nps": null
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 13.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 17723959.29,
+          "gmv_recuperado": 293274.99,
+          "nsu_pct": 0.3
         },
         {
           "nome": "Nagumo Express - Bonsucesso",
-          "gmv": 227692.98,
+          "gmv": 6147710.46,
           "pedidos": 1681,
           "cancel_pct": 6.5,
           "ruptura_pct": 30.0,
-          "ating_pct": 85.6,
-          "nps": null
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 57.8,
+          "online_pct": 13.3,
+          "gmv_rupturado": 19664624.91,
+          "gmv_recuperado": 41384.91,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Atibaia",
-          "gmv": 226717.74,
+          "gmv": 6121378.98,
           "pedidos": 1544,
           "cancel_pct": 5.3,
           "ruptura_pct": 35.8,
-          "ating_pct": 95.5,
-          "nps": null
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 33.2,
+          "online_pct": 12.1,
+          "gmv_rupturado": 21327457.9,
+          "gmv_recuperado": 49600.9,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Itaim Paulista",
-          "gmv": 222186.99,
+          "gmv": 5999048.73,
           "pedidos": 1688,
           "cancel_pct": 6.1,
           "ruptura_pct": 15.4,
-          "ating_pct": 72.2,
-          "nps": null
+          "ating_pct_meta": 1.1,
+          "sla_sep_pct": 57.7,
+          "online_pct": 13.3,
+          "gmv_rupturado": 9310113.24,
+          "gmv_recuperado": 38635.5,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - São José",
-          "gmv": 219595.67,
+          "gmv": 5929083.09,
           "pedidos": 1719,
           "cancel_pct": 6.5,
           "ruptura_pct": 33.6,
-          "ating_pct": 75.3,
-          "nps": null
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 61.9,
+          "online_pct": 13.7,
+          "gmv_rupturado": 22159369.12,
+          "gmv_recuperado": 161082.32,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Dona Benta",
-          "gmv": 213428.37,
+          "gmv": 5762565.99,
           "pedidos": 1544,
           "cancel_pct": 5.2,
           "ruptura_pct": 26.2,
-          "ating_pct": 80.7,
-          "nps": null
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 50.4,
+          "online_pct": 13.2,
+          "gmv_rupturado": 12428200.84,
+          "gmv_recuperado": 418037.84,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - S. André Centro",
-          "gmv": 207153.48,
+          "gmv": 5593143.96,
           "pedidos": 1401,
           "cancel_pct": 6.0,
           "ruptura_pct": 24.8,
-          "ating_pct": 70.2,
-          "nps": null
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 29.9,
+          "online_pct": 12.0,
+          "gmv_rupturado": 12532734.69,
+          "gmv_recuperado": 108619.35,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Vila Zeferina",
-          "gmv": 203622.42,
+          "gmv": 5497805.34,
           "pedidos": 1934,
           "cancel_pct": 4.7,
           "ruptura_pct": 10.2,
-          "ating_pct": 77.4,
-          "nps": null
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 75.5,
+          "online_pct": 13.5,
+          "gmv_rupturado": 5699988.54,
+          "gmv_recuperado": 201195.64,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Camilopolis",
-          "gmv": 202872.78,
+          "gmv": 5477565.06,
           "pedidos": 1556,
           "cancel_pct": 7.3,
           "ruptura_pct": 31.7,
-          "ating_pct": 71.0,
-          "nps": null
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 43.7,
+          "online_pct": 11.5,
+          "gmv_rupturado": 21201908.3,
+          "gmv_recuperado": 61552.14,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaqua",
-          "gmv": 195615.61,
+          "gmv": 5281621.47,
           "pedidos": 1616,
           "cancel_pct": 6.7,
           "ruptura_pct": 26.9,
-          "ating_pct": 79.5,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 44.6,
+          "online_pct": 13.3,
+          "gmv_rupturado": 14044805.32,
+          "gmv_recuperado": 116165.24,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Curuça",
-          "gmv": 183232.96,
+          "gmv": 4947289.92,
           "pedidos": 1601,
           "cancel_pct": 5.8,
           "ruptura_pct": 19.6,
-          "ating_pct": 83.7,
-          "nps": null
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 47.4,
+          "online_pct": 13.1,
+          "gmv_rupturado": 9218570.12,
+          "gmv_recuperado": 53110.74,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Pq Paulistano",
-          "gmv": 176000.53,
+          "gmv": 4752014.31,
           "pedidos": 1295,
           "cancel_pct": 6.3,
           "ruptura_pct": 19.8,
-          "ating_pct": 97.7,
-          "nps": null
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 66.2,
+          "online_pct": 13.4,
+          "gmv_rupturado": 6025271.24,
+          "gmv_recuperado": 157478.9,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Taubaté",
-          "gmv": 172470.87,
+          "gmv": 4656713.49,
           "pedidos": 1325,
           "cancel_pct": 3.4,
           "ruptura_pct": 16.2,
-          "ating_pct": 72.4,
-          "nps": null
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 73.6,
+          "online_pct": 13.4,
+          "gmv_rupturado": 4849172.16,
+          "gmv_recuperado": 133672.5,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Ermelino Matarazzo",
-          "gmv": 160965.9,
+          "gmv": 4346079.3,
           "pedidos": 1482,
           "cancel_pct": 7.5,
           "ruptura_pct": 29.1,
-          "ating_pct": 41.5,
-          "nps": null
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 64.5,
+          "online_pct": 10.4,
+          "gmv_rupturado": 13411002.57,
+          "gmv_recuperado": 12423.25,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Lorena",
-          "gmv": 137842.63,
+          "gmv": 3721751.01,
           "pedidos": 1130,
           "cancel_pct": 4.7,
           "ruptura_pct": 22.4,
-          "ating_pct": 68.0,
-          "nps": null
+          "ating_pct_meta": 3.2,
+          "sla_sep_pct": 52.9,
+          "online_pct": 13.3,
+          "gmv_rupturado": 5481395.5,
+          "gmv_recuperado": 38355.24,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Aimoré",
-          "gmv": 130984.03,
+          "gmv": 3536568.81,
           "pedidos": 1271,
           "cancel_pct": 5.4,
           "ruptura_pct": 15.3,
-          "ating_pct": 65.0,
-          "nps": null
+          "ating_pct_meta": 2.7,
+          "sla_sep_pct": 81.4,
+          "online_pct": 13.2,
+          "gmv_rupturado": 5526984.96,
+          "gmv_recuperado": 64310.4,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Tiburcio 2",
-          "gmv": 129083.56,
+          "gmv": 3485256.12,
           "pedidos": 1148,
           "cancel_pct": 7.3,
           "ruptura_pct": 25.0,
-          "ating_pct": 82.6,
-          "nps": null
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 63.8,
+          "online_pct": 11.1,
+          "gmv_rupturado": 6182337.42,
+          "gmv_recuperado": 47528.04,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Kemel",
-          "gmv": 121404.49,
+          "gmv": 3277921.23,
           "pedidos": 1159,
           "cancel_pct": 5.1,
           "ruptura_pct": 14.3,
-          "ating_pct": 81.7,
-          "nps": null
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 87.8,
+          "online_pct": 13.5,
+          "gmv_rupturado": 2967200.94,
+          "gmv_recuperado": 36849.78,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd Edmundo",
-          "gmv": 118480.43,
+          "gmv": 3198971.61,
           "pedidos": 901,
           "cancel_pct": 4.6,
           "ruptura_pct": 12.2,
-          "ating_pct": 73.5,
-          "nps": null
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 89.0,
+          "online_pct": 13.6,
+          "gmv_rupturado": 2025134.88,
+          "gmv_recuperado": 32549.12,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande Ocian",
-          "gmv": 13868.49,
+          "gmv": 374449.23,
           "pedidos": 133,
           "cancel_pct": 8.3,
           "ruptura_pct": 40.6,
-          "ating_pct": 483.2,
-          "nps": null
+          "ating_pct_meta": 5.6,
+          "sla_sep_pct": 84.2,
+          "online_pct": 7.0,
+          "gmv_rupturado": 155028.2,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Alvorada Gru",
           "gmv": 0.0,
           "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "ating_pct": 0.0,
-          "nps": null
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "CONSOLIDADO": [
         {
           "nome": "Nagumo Express - Barreira Grande",
-          "gmv": 386555.09,
+          "gmv": 10436987.43,
           "pedidos": 2745,
           "cancel_pct": 3.7,
           "ruptura_pct": 23.1,
-          "ating_pct": 0.9,
-          "nps": null
+          "ating_pct_meta": 0.9,
+          "sla_sep_pct": 75.2,
+          "online_pct": 12.7,
+          "gmv_rupturado": 30301052.32,
+          "gmv_recuperado": 792363.88,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pires do Rio",
-          "gmv": 299136.44,
+          "gmv": 8076683.88,
           "pedidos": 2127,
           "cancel_pct": 5.8,
           "ruptura_pct": 31.9,
-          "ating_pct": 0.8,
-          "nps": null
+          "ating_pct_meta": 0.8,
+          "sla_sep_pct": 59.4,
+          "online_pct": 13.0,
+          "gmv_rupturado": 29112839.91,
+          "gmv_recuperado": 545977.71,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Mogi",
-          "gmv": 287310.14,
+          "gmv": 7757373.78,
           "pedidos": 1930,
           "cancel_pct": 4.1,
           "ruptura_pct": 19.1,
-          "ating_pct": 1.4,
-          "nps": null
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 63.6,
+          "online_pct": 12.6,
+          "gmv_rupturado": 16970254.29,
+          "gmv_recuperado": 27115.11,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Vila Diva",
-          "gmv": 271997.72,
+          "gmv": 7343938.44,
           "pedidos": 1803,
           "cancel_pct": 3.7,
           "ruptura_pct": 23.6,
-          "ating_pct": 1.5,
-          "nps": null
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 66.6,
+          "online_pct": 11.2,
+          "gmv_rupturado": 15393324.96,
+          "gmv_recuperado": 45527.04,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Volta Redonda",
-          "gmv": 229472.17,
+          "gmv": 6195748.59,
           "pedidos": 1302,
           "cancel_pct": 4.9,
           "ruptura_pct": 20.1,
-          "ating_pct": 1.9,
-          "nps": null
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 38.4,
+          "online_pct": 12.3,
+          "gmv_rupturado": 7505213.94,
+          "gmv_recuperado": 18440.43,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Osasco",
-          "gmv": 224177.6,
+          "gmv": 6052795.2,
           "pedidos": 1432,
           "cancel_pct": 7.6,
           "ruptura_pct": 31.4,
-          "ating_pct": 1.7,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 60.1,
+          "online_pct": 12.4,
+          "gmv_rupturado": 14042752.0,
+          "gmv_recuperado": 56001.5,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pq Continental Gru",
-          "gmv": 222322.32,
+          "gmv": 6002702.64,
           "pedidos": 1474,
           "cancel_pct": 7.2,
           "ruptura_pct": 31.1,
-          "ating_pct": 1.5,
-          "nps": null
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 60.6,
+          "online_pct": 13.4,
+          "gmv_rupturado": 14427345.24,
+          "gmv_recuperado": 131613.44,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Atibaia",
-          "gmv": 216444.26,
+          "gmv": 5843995.02,
           "pedidos": 1304,
           "cancel_pct": 6.5,
           "ruptura_pct": 38.4,
-          "ating_pct": 1.9,
-          "nps": null
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 35.7,
+          "online_pct": 12.2,
+          "gmv_rupturado": 16052711.4,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Vila Mazza",
-          "gmv": 214182.63,
+          "gmv": 5782931.01,
           "pedidos": 1342,
           "cancel_pct": 3.4,
           "ruptura_pct": 18.7,
-          "ating_pct": 2.0,
-          "nps": null
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 84.0,
+          "online_pct": 12.4,
+          "gmv_rupturado": 7154725.11,
+          "gmv_recuperado": 140316.78,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Calmon Viana",
-          "gmv": 200222.52,
+          "gmv": 5406008.04,
           "pedidos": 1413,
           "cancel_pct": 3.6,
           "ruptura_pct": 13.6,
-          "ating_pct": 1.7,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 80.5,
+          "online_pct": 13.5,
+          "gmv_rupturado": 4015960.4,
+          "gmv_recuperado": 120138.7,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Solar - Sto André",
-          "gmv": 200105.28,
+          "gmv": 5402842.56,
           "pedidos": 1270,
           "cancel_pct": 5.8,
           "ruptura_pct": 22.9,
-          "ating_pct": 1.6,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 31.2,
+          "online_pct": 12.8,
+          "gmv_rupturado": 6571203.44,
+          "gmv_recuperado": 247708.48,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Bonsucesso",
-          "gmv": 194971.39,
+          "gmv": 5264227.53,
           "pedidos": 1401,
           "cancel_pct": 5.5,
           "ruptura_pct": 34.9,
-          "ating_pct": 2.1,
-          "nps": null
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 66.5,
+          "online_pct": 13.5,
+          "gmv_rupturado": 14066536.38,
+          "gmv_recuperado": 5424.12,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Anel Viário",
-          "gmv": 194187.24,
+          "gmv": 5243055.48,
           "pedidos": 1270,
           "cancel_pct": 5.6,
           "ruptura_pct": 27.9,
-          "ating_pct": 1.6,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 62.4,
+          "online_pct": 13.4,
+          "gmv_rupturado": 9451921.58,
+          "gmv_recuperado": 108097.26,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande",
-          "gmv": 177847.68,
+          "gmv": 4801887.36,
           "pedidos": 1195,
           "cancel_pct": 5.6,
           "ruptura_pct": 28.7,
-          "ating_pct": 2.0,
-          "nps": null
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 74.0,
+          "online_pct": 13.6,
+          "gmv_rupturado": 9223835.46,
+          "gmv_recuperado": 154325.4,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Dona Benta",
-          "gmv": 172168.91,
+          "gmv": 4648560.57,
           "pedidos": 1227,
           "cancel_pct": 5.5,
           "ruptura_pct": 27.7,
-          "ating_pct": 2.1,
-          "nps": null
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 62.0,
+          "online_pct": 13.5,
+          "gmv_rupturado": 7750067.82,
+          "gmv_recuperado": 72679.05,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Pq Paulistano",
-          "gmv": 171912.98,
+          "gmv": 4641650.46,
           "pedidos": 1118,
           "cancel_pct": 4.5,
           "ruptura_pct": 18.8,
-          "ating_pct": 1.7,
-          "nps": null
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 68.3,
+          "online_pct": 13.5,
+          "gmv_rupturado": 3514358.36,
+          "gmv_recuperado": 103048.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Jd. Cumbica",
-          "gmv": 169543.56,
+          "gmv": 4577676.12,
           "pedidos": 1200,
           "cancel_pct": 6.3,
           "ruptura_pct": 22.2,
-          "ating_pct": 1.5,
-          "nps": null
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 70.0,
+          "online_pct": 13.6,
+          "gmv_rupturado": 6028078.56,
+          "gmv_recuperado": 41286.63,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - São José",
-          "gmv": 165395.42,
+          "gmv": 4465676.34,
           "pedidos": 1189,
           "cancel_pct": 7.7,
           "ruptura_pct": 29.4,
-          "ating_pct": 1.8,
-          "nps": null
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 43.5,
+          "online_pct": 13.8,
+          "gmv_rupturado": 9107216.16,
+          "gmv_recuperado": 108604.16,
+          "nsu_pct": 0.2
         },
         {
           "nome": "Nagumo Express - Itaim Paulista",
-          "gmv": 160359.44,
+          "gmv": 4329704.88,
           "pedidos": 1123,
           "cancel_pct": 6.3,
           "ruptura_pct": 21.0,
-          "ating_pct": 1.3,
-          "nps": null
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 71.8,
+          "online_pct": 14.0,
+          "gmv_rupturado": 4825412.22,
+          "gmv_recuperado": 32238.18,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Vila Zeferina",
-          "gmv": 157516.22,
+          "gmv": 4252937.94,
           "pedidos": 1454,
           "cancel_pct": 5.8,
           "ruptura_pct": 10.5,
-          "ating_pct": 1.6,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 82.7,
+          "online_pct": 13.5,
+          "gmv_rupturado": 3228881.8,
+          "gmv_recuperado": 209045.64,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Itaqua",
-          "gmv": 155463.14,
+          "gmv": 4197504.78,
           "pedidos": 1162,
           "cancel_pct": 7.9,
           "ruptura_pct": 23.8,
-          "ating_pct": 1.9,
-          "nps": null
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 61.6,
+          "online_pct": 13.5,
+          "gmv_rupturado": 6335856.67,
+          "gmv_recuperado": 92418.69,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Curuça",
-          "gmv": 153407.56,
+          "gmv": 4142004.12,
           "pedidos": 1320,
           "cancel_pct": 3.8,
           "ruptura_pct": 16.1,
-          "ating_pct": 2.2,
-          "nps": null
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 67.8,
+          "online_pct": 13.3,
+          "gmv_rupturado": 5361940.64,
+          "gmv_recuperado": 41544.16,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - S. André Centro",
-          "gmv": 145355.66,
+          "gmv": 3924602.82,
           "pedidos": 884,
           "cancel_pct": 4.7,
           "ruptura_pct": 25.5,
-          "ating_pct": 1.9,
-          "nps": null
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 49.5,
+          "online_pct": 12.9,
+          "gmv_rupturado": 5820313.92,
+          "gmv_recuperado": 44024.32,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Camilopolis",
-          "gmv": 143985.04,
+          "gmv": 3887596.08,
           "pedidos": 1047,
           "cancel_pct": 5.2,
           "ruptura_pct": 32.2,
-          "ating_pct": 1.7,
-          "nps": null
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 51.0,
+          "online_pct": 12.5,
+          "gmv_rupturado": 8194845.75,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Taubaté",
-          "gmv": 124808.92,
+          "gmv": 3369840.84,
           "pedidos": 865,
           "cancel_pct": 2.8,
           "ruptura_pct": 15.1,
-          "ating_pct": 2.5,
-          "nps": null
+          "ating_pct_meta": 2.6,
+          "sla_sep_pct": 81.7,
+          "online_pct": 13.6,
+          "gmv_rupturado": 2000364.0,
+          "gmv_recuperado": 87406.9,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Tiburcio 2",
-          "gmv": 106645.26,
+          "gmv": 2879422.02,
           "pedidos": 949,
           "cancel_pct": 5.1,
           "ruptura_pct": 23.3,
-          "ating_pct": 2.6,
-          "nps": null
+          "ating_pct_meta": 2.6,
+          "sla_sep_pct": 74.6,
+          "online_pct": 13.5,
+          "gmv_rupturado": 3880710.0,
+          "gmv_recuperado": 26360.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Kemel",
-          "gmv": 99191.18,
+          "gmv": 2678161.86,
           "pedidos": 875,
           "cancel_pct": 7.7,
           "ruptura_pct": 18.4,
-          "ating_pct": 2.5,
-          "nps": null
+          "ating_pct_meta": 2.5,
+          "sla_sep_pct": 81.4,
+          "online_pct": 13.5,
+          "gmv_rupturado": 2421485.88,
+          "gmv_recuperado": 15736.8,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Lorena",
-          "gmv": 93694.57,
+          "gmv": 2529753.39,
           "pedidos": 728,
           "cancel_pct": 6.4,
           "ruptura_pct": 23.6,
-          "ating_pct": 3.5,
-          "nps": null
+          "ating_pct_meta": 3.5,
+          "sla_sep_pct": 68.7,
+          "online_pct": 13.5,
+          "gmv_rupturado": 2351948.46,
+          "gmv_recuperado": 39709.12,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Nagumo Express - Jd Edmundo",
-          "gmv": 87030.37,
+          "gmv": 2349819.99,
           "pedidos": 600,
           "cancel_pct": 4.5,
           "ruptura_pct": 13.8,
-          "ating_pct": 2.7,
-          "nps": null
+          "ating_pct_meta": 2.7,
+          "sla_sep_pct": 94.9,
+          "online_pct": 13.5,
+          "gmv_rupturado": 971974.44,
+          "gmv_recuperado": 17244.88,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Aimoré",
-          "gmv": 85186.31,
+          "gmv": 2300030.37,
           "pedidos": 772,
           "cancel_pct": 8.5,
           "ruptura_pct": 19.0,
-          "ating_pct": 2.9,
-          "nps": null
+          "ating_pct_meta": 3.0,
+          "sla_sep_pct": 88.2,
+          "online_pct": 13.3,
+          "gmv_rupturado": 2072796.48,
+          "gmv_recuperado": 33624.96,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Praia Grande Ocian",
-          "gmv": 67015.14,
+          "gmv": 1809408.78,
           "pedidos": 476,
           "cancel_pct": 5.6,
           "ruptura_pct": 30.9,
-          "ating_pct": 8.2,
-          "nps": null
+          "ating_pct_meta": 8.5,
+          "sla_sep_pct": 85.8,
+          "online_pct": 13.5,
+          "gmv_rupturado": 1760023.44,
+          "gmv_recuperado": 19000.8,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Ermelino Matarazzo",
-          "gmv": 66808.32,
+          "gmv": 1803824.64,
           "pedidos": 562,
           "cancel_pct": 4.1,
           "ruptura_pct": 24.9,
-          "ating_pct": 2.6,
-          "nps": null
+          "ating_pct_meta": 2.6,
+          "sla_sep_pct": 86.2,
+          "online_pct": 8.1,
+          "gmv_rupturado": 1378852.14,
+          "gmv_recuperado": 12645.88,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Nagumo Express - Alvorada Gru",
           "gmv": 0.0,
           "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "ating_pct": null,
-          "nps": null
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ]
     },
@@ -2206,9 +2786,12 @@
           "pedidos": 134,
           "cancel_pct": 2.2,
           "ruptura_pct": 39.6,
-          "nps": null,
-          "meta_gmv": 22989.23,
-          "ating_pct": 92.1
+          "ating_pct_meta": 0.7,
+          "sla_sep_pct": 91.8,
+          "online_pct": 12.0,
+          "gmv_rupturado": 158428.17,
+          "gmv_recuperado": 50499.57,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São Lourenço",
@@ -2216,9 +2799,12 @@
           "pedidos": 73,
           "cancel_pct": 1.4,
           "ruptura_pct": 30.1,
-          "nps": null,
-          "meta_gmv": 7528.16,
-          "ating_pct": 128.7
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 97.6,
+          "online_pct": 12.0,
+          "gmv_rupturado": 53874.96,
+          "gmv_recuperado": 5109.7,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Parque Tingui",
@@ -2226,19 +2812,25 @@
           "pedidos": 56,
           "cancel_pct": 1.8,
           "ruptura_pct": 50.0,
-          "nps": null,
-          "meta_gmv": 7439.04,
-          "ating_pct": 119.3
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 94.9,
+          "online_pct": 12.0,
+          "gmv_rupturado": 36837.39,
+          "gmv_recuperado": 16358.43,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Cascavel - Centro",
-          "gmv": 8122.03,
-          "pedidos": 34,
+          "gmv": 8215.01,
+          "pedidos": 35,
           "cancel_pct": 2.8,
-          "ruptura_pct": 50.0,
-          "nps": null,
-          "meta_gmv": 6988.16,
-          "ating_pct": 116.2
+          "ruptura_pct": 51.4,
+          "ating_pct_meta": 3.3,
+          "sla_sep_pct": 0.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 47259.36,
+          "gmv_recuperado": 3786.48,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São José dos pinhais",
@@ -2246,19 +2838,25 @@
           "pedidos": 44,
           "cancel_pct": 2.2,
           "ruptura_pct": 36.4,
-          "nps": null,
-          "meta_gmv": 7486.17,
-          "ating_pct": 74.7
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 10840.5,
+          "gmv_recuperado": 1950.3,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Av Brasil",
-          "gmv": 3584.53,
-          "pedidos": 17,
+          "gmv": 3646.93,
+          "pedidos": 18,
           "cancel_pct": 14.3,
-          "ruptura_pct": 64.7,
-          "nps": null,
-          "meta_gmv": 5369.28,
-          "ating_pct": 66.8
+          "ruptura_pct": 61.1,
+          "ating_pct_meta": 3.2,
+          "sla_sep_pct": 1400.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 6592.95,
+          "gmv_recuperado": 2676.66,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Pinhais",
@@ -2266,9 +2864,12 @@
           "pedidos": 23,
           "cancel_pct": 11.5,
           "ruptura_pct": 39.1,
-          "nps": null,
-          "meta_gmv": 3256.03,
-          "ating_pct": 101.5
+          "ating_pct_meta": 3.9,
+          "sla_sep_pct": 100.0,
+          "online_pct": 13.0,
+          "gmv_rupturado": 9296.3,
+          "gmv_recuperado": 196.3,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Tancredo Neves",
@@ -2276,9 +2877,12 @@
           "pedidos": 11,
           "cancel_pct": 21.4,
           "ruptura_pct": 36.4,
-          "nps": null,
-          "meta_gmv": 4633.99,
-          "ating_pct": 43.4
+          "ating_pct_meta": 3.1,
+          "sla_sep_pct": 0.0,
+          "online_pct": 7.6,
+          "gmv_rupturado": 701.26,
+          "gmv_recuperado": 329.7,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Faculdade",
@@ -2286,9 +2890,12 @@
           "pedidos": 12,
           "cancel_pct": 14.3,
           "ruptura_pct": 75.0,
-          "nps": null,
-          "meta_gmv": 2837.95,
-          "ating_pct": 66.9
+          "ating_pct_meta": 4.8,
+          "sla_sep_pct": 1200.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 2897.58,
+          "gmv_recuperado": 587.16,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Carlos Gomes",
@@ -2296,9 +2903,12 @@
           "pedidos": 8,
           "cancel_pct": 0.0,
           "ruptura_pct": 37.5,
-          "nps": null,
-          "meta_gmv": 2242.54,
-          "ating_pct": 70.4
+          "ating_pct_meta": 8.8,
+          "sla_sep_pct": 300.0,
+          "online_pct": 11.0,
+          "gmv_rupturado": 212.88,
+          "gmv_recuperado": 188.4,
+          "nsu_pct": 0.0
         }
       ],
       "D-7": [
@@ -2308,9 +2918,12 @@
           "pedidos": 124,
           "cancel_pct": 1.6,
           "ruptura_pct": 37.1,
-          "nps": null,
-          "meta_gmv": 24592.6,
-          "ating_pct": 88.2
+          "ating_pct_meta": 0.7,
+          "sla_sep_pct": 81.3,
+          "online_pct": 7.3,
+          "gmv_rupturado": 255446.1,
+          "gmv_recuperado": 76401.36,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São Lourenço",
@@ -2318,9 +2931,12 @@
           "pedidos": 60,
           "cancel_pct": 3.2,
           "ruptura_pct": 33.3,
-          "nps": null,
-          "meta_gmv": 8053.21,
-          "ating_pct": 123.1
+          "ating_pct_meta": 2.0,
+          "sla_sep_pct": 92.3,
+          "online_pct": 12.0,
+          "gmv_rupturado": 40384.32,
+          "gmv_recuperado": 1739.1,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Parque Tingui",
@@ -2328,9 +2944,12 @@
           "pedidos": 49,
           "cancel_pct": 5.8,
           "ruptura_pct": 40.8,
-          "nps": null,
-          "meta_gmv": 7957.87,
-          "ating_pct": 94.1
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 94.2,
+          "online_pct": 12.0,
+          "gmv_rupturado": 26993.72,
+          "gmv_recuperado": 15498.6,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Cascavel - Centro",
@@ -2338,9 +2957,12 @@
           "pedidos": 29,
           "cancel_pct": 3.3,
           "ruptura_pct": 41.4,
-          "nps": null,
-          "meta_gmv": 7475.54,
-          "ating_pct": 81.6
+          "ating_pct_meta": 2.7,
+          "sla_sep_pct": 1800.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 8754.6,
+          "gmv_recuperado": 2209.8,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São José dos pinhais",
@@ -2348,9 +2970,12 @@
           "pedidos": 28,
           "cancel_pct": 0.0,
           "ruptura_pct": 39.3,
-          "nps": null,
-          "meta_gmv": 8008.29,
-          "ating_pct": 69.0
+          "ating_pct_meta": 2.5,
+          "sla_sep_pct": 92.9,
+          "online_pct": 12.0,
+          "gmv_rupturado": 4614.4,
+          "gmv_recuperado": 1005.76,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Av Brasil",
@@ -2358,9 +2983,12 @@
           "pedidos": 18,
           "cancel_pct": 0.0,
           "ruptura_pct": 55.6,
-          "nps": null,
-          "meta_gmv": 5743.76,
-          "ating_pct": 73.9
+          "ating_pct_meta": 4.1,
+          "sla_sep_pct": 0.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 6939.0,
+          "gmv_recuperado": 73.44,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Pinhais",
@@ -2368,9 +2996,12 @@
           "pedidos": 34,
           "cancel_pct": 5.6,
           "ruptura_pct": 32.4,
-          "nps": null,
-          "meta_gmv": 3483.12,
-          "ating_pct": 106.1
+          "ating_pct_meta": 2.9,
+          "sla_sep_pct": 97.2,
+          "online_pct": 13.0,
+          "gmv_rupturado": 11342.52,
+          "gmv_recuperado": 5612.4,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Festval - Tancredo Neves",
@@ -2378,9 +3009,12 @@
           "pedidos": 11,
           "cancel_pct": 8.3,
           "ruptura_pct": 63.6,
-          "nps": null,
-          "meta_gmv": 4957.18,
-          "ating_pct": 45.9
+          "ating_pct_meta": 3.8,
+          "sla_sep_pct": 0.0,
+          "online_pct": 8.0,
+          "gmv_rupturado": 4968.24,
+          "gmv_recuperado": 416.76,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Faculdade",
@@ -2388,9 +3022,12 @@
           "pedidos": 10,
           "cancel_pct": 0.0,
           "ruptura_pct": 40.0,
-          "nps": null,
-          "meta_gmv": 3035.89,
-          "ating_pct": 57.7
+          "ating_pct_meta": 5.8,
+          "sla_sep_pct": 1000.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 438.3,
+          "gmv_recuperado": 379.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Carlos Gomes",
@@ -2398,9 +3035,12 @@
           "pedidos": 9,
           "cancel_pct": 0.0,
           "ruptura_pct": 44.4,
-          "nps": null,
-          "meta_gmv": 2398.94,
-          "ating_pct": 69.6
+          "ating_pct_meta": 7.7,
+          "sla_sep_pct": 300.0,
+          "online_pct": 11.0,
+          "gmv_rupturado": 116.01,
+          "gmv_recuperado": 394.29,
+          "nsu_pct": 0.0
         }
       ],
       "D-15": [
@@ -2410,9 +3050,12 @@
           "pedidos": 145,
           "cancel_pct": 2.7,
           "ruptura_pct": 40.0,
-          "nps": null,
-          "meta_gmv": 23128.3,
-          "ating_pct": 94.9
+          "ating_pct_meta": 0.6,
+          "sla_sep_pct": 91.8,
+          "online_pct": 12.0,
+          "gmv_rupturado": 262101.43,
+          "gmv_recuperado": 79926.58,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São Lourenço",
@@ -2420,9 +3063,12 @@
           "pedidos": 65,
           "cancel_pct": 4.4,
           "ruptura_pct": 38.5,
-          "nps": null,
-          "meta_gmv": 7573.71,
-          "ating_pct": 125.5
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 95.6,
+          "online_pct": 12.0,
+          "gmv_rupturado": 45030.96,
+          "gmv_recuperado": 8158.64,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Cascavel - Centro",
@@ -2430,9 +3076,12 @@
           "pedidos": 29,
           "cancel_pct": 6.5,
           "ruptura_pct": 44.8,
-          "nps": null,
-          "meta_gmv": 7030.43,
-          "ating_pct": 101.8
+          "ating_pct_meta": 3.3,
+          "sla_sep_pct": 0.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 17754.32,
+          "gmv_recuperado": 2531.46,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Parque Tingui",
@@ -2440,9 +3089,12 @@
           "pedidos": 32,
           "cancel_pct": 8.6,
           "ruptura_pct": 62.5,
-          "nps": null,
-          "meta_gmv": 7484.04,
-          "ating_pct": 76.0
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 97.3,
+          "online_pct": 12.0,
+          "gmv_rupturado": 17939.6,
+          "gmv_recuperado": 8198.75,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São José dos pinhais",
@@ -2450,9 +3102,12 @@
           "pedidos": 45,
           "cancel_pct": 2.2,
           "ruptura_pct": 26.7,
-          "nps": null,
-          "meta_gmv": 7531.46,
-          "ating_pct": 71.4
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 82.2,
+          "online_pct": 12.0,
+          "gmv_rupturado": 7355.4,
+          "gmv_recuperado": 7147.48,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Tancredo Neves",
@@ -2460,9 +3115,12 @@
           "pedidos": 19,
           "cancel_pct": 5.0,
           "ruptura_pct": 73.7,
-          "nps": null,
-          "meta_gmv": 4662.02,
-          "ating_pct": 71.5
+          "ating_pct_meta": 3.6,
+          "sla_sep_pct": 0.0,
+          "online_pct": 8.0,
+          "gmv_rupturado": 6381.2,
+          "gmv_recuperado": 2168.2,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Av Brasil",
@@ -2470,9 +3128,12 @@
           "pedidos": 18,
           "cancel_pct": 0.0,
           "ruptura_pct": 50.0,
-          "nps": null,
-          "meta_gmv": 5401.76,
-          "ating_pct": 60.9
+          "ating_pct_meta": 3.4,
+          "sla_sep_pct": 1800.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 4115.7,
+          "gmv_recuperado": 3391.38,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Pinhais",
@@ -2480,9 +3141,12 @@
           "pedidos": 19,
           "cancel_pct": 9.5,
           "ruptura_pct": 26.3,
-          "nps": null,
-          "meta_gmv": 3275.73,
-          "ating_pct": 94.6
+          "ating_pct_meta": 4.5,
+          "sla_sep_pct": 100.0,
+          "online_pct": 13.0,
+          "gmv_rupturado": 1311.03,
+          "gmv_recuperado": 917.28,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Faculdade",
@@ -2490,9 +3154,12 @@
           "pedidos": 14,
           "cancel_pct": 0.0,
           "ruptura_pct": 28.6,
-          "nps": null,
-          "meta_gmv": 2855.12,
-          "ating_pct": 98.7
+          "ating_pct_meta": 7.1,
+          "sla_sep_pct": 1400.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 1284.64,
+          "gmv_recuperado": 464.1,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Carlos Gomes",
@@ -2500,9 +3167,12 @@
           "pedidos": 8,
           "cancel_pct": 0.0,
           "ruptura_pct": 62.5,
-          "nps": null,
-          "meta_gmv": 2256.1,
-          "ating_pct": 70.1
+          "ating_pct_meta": 8.8,
+          "sla_sep_pct": 0.0,
+          "online_pct": 11.0,
+          "gmv_rupturado": 519.92,
+          "gmv_recuperado": 102.32,
+          "nsu_pct": 0.0
         }
       ],
       "D-21": [
@@ -2512,9 +3182,12 @@
           "pedidos": 122,
           "cancel_pct": 2.4,
           "ruptura_pct": 41.8,
-          "nps": null,
-          "meta_gmv": 24367.35,
-          "ating_pct": 80.7
+          "ating_pct_meta": 0.6,
+          "sla_sep_pct": 95.1,
+          "online_pct": 8.3,
+          "gmv_rupturado": 210970.0,
+          "gmv_recuperado": 66098.75,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São Lourenço",
@@ -2522,9 +3195,12 @@
           "pedidos": 52,
           "cancel_pct": 3.7,
           "ruptura_pct": 40.4,
-          "nps": null,
-          "meta_gmv": 7979.45,
-          "ating_pct": 100.8
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 98.2,
+          "online_pct": 11.5,
+          "gmv_rupturado": 51842.7,
+          "gmv_recuperado": 10884.24,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Cascavel - Centro",
@@ -2532,9 +3208,12 @@
           "pedidos": 37,
           "cancel_pct": 0.0,
           "ruptura_pct": 62.2,
-          "nps": null,
-          "meta_gmv": 7407.07,
-          "ating_pct": 99.7
+          "ating_pct_meta": 2.7,
+          "sla_sep_pct": 0.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 18179.58,
+          "gmv_recuperado": 7530.24,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São José dos pinhais",
@@ -2542,9 +3221,12 @@
           "pedidos": 44,
           "cancel_pct": 4.3,
           "ruptura_pct": 31.8,
-          "nps": null,
-          "meta_gmv": 7934.94,
-          "ating_pct": 88.3
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 83.7,
+          "online_pct": 12.0,
+          "gmv_rupturado": 13213.96,
+          "gmv_recuperado": 8819.58,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Tancredo Neves",
@@ -2552,9 +3234,12 @@
           "pedidos": 24,
           "cancel_pct": 7.7,
           "ruptura_pct": 41.7,
-          "nps": null,
-          "meta_gmv": 4911.78,
-          "ating_pct": 134.2
+          "ating_pct_meta": 5.2,
+          "sla_sep_pct": 500.0,
+          "online_pct": 11.2,
+          "gmv_rupturado": 8800.22,
+          "gmv_recuperado": 3276.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Parque Tingui",
@@ -2562,9 +3247,12 @@
           "pedidos": 40,
           "cancel_pct": 4.8,
           "ruptura_pct": 55.0,
-          "nps": null,
-          "meta_gmv": 7884.99,
-          "ating_pct": 78.8
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 91.5,
+          "online_pct": 12.0,
+          "gmv_rupturado": 25064.76,
+          "gmv_recuperado": 10500.42,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Av Brasil",
@@ -2572,9 +3260,12 @@
           "pedidos": 22,
           "cancel_pct": 4.3,
           "ruptura_pct": 40.9,
-          "nps": null,
-          "meta_gmv": 5691.15,
-          "ating_pct": 92.1
+          "ating_pct_meta": 4.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 11.9,
+          "gmv_rupturado": 11328.42,
+          "gmv_recuperado": 2405.34,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Pinhais",
@@ -2582,9 +3273,12 @@
           "pedidos": 22,
           "cancel_pct": 0.0,
           "ruptura_pct": 18.2,
-          "nps": null,
-          "meta_gmv": 3451.22,
-          "ating_pct": 111.9
+          "ating_pct_meta": 5.1,
+          "sla_sep_pct": 100.0,
+          "online_pct": 13.0,
+          "gmv_rupturado": 5387.14,
+          "gmv_recuperado": 878.46,
+          "nsu_pct": 0.1
         },
         {
           "nome": "Festval - Faculdade",
@@ -2592,9 +3286,12 @@
           "pedidos": 16,
           "cancel_pct": 0.0,
           "ruptura_pct": 43.8,
-          "nps": null,
-          "meta_gmv": 3008.08,
-          "ating_pct": 100.3
+          "ating_pct_meta": 6.3,
+          "sla_sep_pct": 1700.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 1692.96,
+          "gmv_recuperado": 581.28,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Carlos Gomes",
@@ -2602,193 +3299,276 @@
           "pedidos": 5,
           "cancel_pct": 0.0,
           "ruptura_pct": 60.0,
-          "nps": null,
-          "meta_gmv": 2376.97,
-          "ating_pct": 61.9
+          "ating_pct_meta": 12.4,
+          "sla_sep_pct": 300.0,
+          "online_pct": 11.0,
+          "gmv_rupturado": 212.55,
+          "gmv_recuperado": 148.45,
+          "nsu_pct": 0.0
         }
       ],
       "MTD": [
         {
           "nome": "Festval - Republica Argentina",
-          "gmv": 627428.56,
+          "gmv": 16940571.12,
           "pedidos": 4026,
           "cancel_pct": 5.5,
           "ruptura_pct": 42.0,
-          "ating_pct": 98.2,
-          "nps": null
+          "ating_pct_meta": 0.7,
+          "sla_sep_pct": 81.1,
+          "online_pct": 8.8,
+          "gmv_rupturado": 189432810.96,
+          "gmv_recuperado": 70643033.78,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São Lourenço",
-          "gmv": 236256.27,
+          "gmv": 6378919.29,
           "pedidos": 1400,
           "cancel_pct": 5.3,
           "ruptura_pct": 40.4,
-          "ating_pct": 126.1,
-          "nps": null
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 83.9,
+          "online_pct": 11.2,
+          "gmv_rupturado": 19445927.76,
+          "gmv_recuperado": 11680619.22,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Parque Tingui",
-          "gmv": 222494.49,
+          "gmv": 6007351.23,
           "pedidos": 1211,
           "cancel_pct": 5.4,
           "ruptura_pct": 53.7,
-          "ating_pct": 116.5,
-          "nps": null
+          "ating_pct_meta": 2.4,
+          "sla_sep_pct": 89.2,
+          "online_pct": 11.1,
+          "gmv_rupturado": 26080179.2,
+          "gmv_recuperado": 11873164.8,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Cascavel - Centro",
-          "gmv": 207076.14,
+          "gmv": 5591055.78,
           "pedidos": 980,
           "cancel_pct": 4.9,
           "ruptura_pct": 53.7,
-          "ating_pct": 90.8,
-          "nps": null
+          "ating_pct_meta": 3.0,
+          "sla_sep_pct": 2595.0,
+          "online_pct": 9.7,
+          "gmv_rupturado": 19191196.9,
+          "gmv_recuperado": 3510641.7,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São José dos pinhais",
-          "gmv": 192823.05,
+          "gmv": 5206222.35,
           "pedidos": 1410,
           "cancel_pct": 4.8,
           "ruptura_pct": 44.2,
-          "ating_pct": 100.9,
-          "nps": null
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 82.8,
+          "online_pct": 11.2,
+          "gmv_rupturado": 21279200.53,
+          "gmv_recuperado": 7787616.35,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Av Brasil",
-          "gmv": 127469.51,
+          "gmv": 3441676.77,
           "pedidos": 598,
           "cancel_pct": 6.6,
           "ruptura_pct": 50.2,
-          "ating_pct": 97.2,
-          "nps": null
+          "ating_pct_meta": 3.8,
+          "sla_sep_pct": 1166.7,
+          "online_pct": 9.3,
+          "gmv_rupturado": 6197548.8,
+          "gmv_recuperado": 2061158.4,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Pinhais",
-          "gmv": 95199.04,
+          "gmv": 2570374.08,
           "pedidos": 817,
           "cancel_pct": 6.9,
           "ruptura_pct": 26.3,
-          "ating_pct": 117.3,
-          "nps": null
+          "ating_pct_meta": 3.4,
+          "sla_sep_pct": 97.8,
+          "online_pct": 12.3,
+          "gmv_rupturado": 4885534.42,
+          "gmv_recuperado": 1082029.64,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Tancredo Neves",
-          "gmv": 80838.08,
+          "gmv": 2182628.16,
           "pedidos": 373,
           "cancel_pct": 11.4,
           "ruptura_pct": 50.9,
-          "ating_pct": 113.8,
-          "nps": null
+          "ating_pct_meta": 4.3,
+          "sla_sep_pct": 905.3,
+          "online_pct": 6.5,
+          "gmv_rupturado": 2036204.39,
+          "gmv_recuperado": 1396562.25,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Faculdade",
-          "gmv": 65491.31,
+          "gmv": 1768265.37,
           "pedidos": 385,
           "cancel_pct": 5.6,
           "ruptura_pct": 44.9,
-          "ating_pct": 86.3,
-          "nps": null
+          "ating_pct_meta": 5.9,
+          "sla_sep_pct": 1745.5,
+          "online_pct": 10.1,
+          "gmv_rupturado": 1420517.28,
+          "gmv_recuperado": 843331.92,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Carlos Gomes",
-          "gmv": 39453.06,
+          "gmv": 1065232.62,
           "pedidos": 224,
           "cancel_pct": 5.9,
           "ruptura_pct": 42.4,
-          "ating_pct": 123.2,
-          "nps": null
+          "ating_pct_meta": 7.7,
+          "sla_sep_pct": 678.3,
+          "online_pct": 9.1,
+          "gmv_rupturado": 534766.96,
+          "gmv_recuperado": 299970.44,
+          "nsu_pct": 0.0
         }
       ],
       "CONSOLIDADO": [
         {
           "nome": "Festval - Republica Argentina",
-          "gmv": 616410.56,
+          "gmv": 16643085.12,
           "pedidos": 3853,
           "cancel_pct": 6.1,
           "ruptura_pct": 43.0,
-          "ating_pct": 0.6,
-          "nps": null
+          "ating_pct_meta": 0.6,
+          "sla_sep_pct": 75.3,
+          "online_pct": 7.8,
+          "gmv_rupturado": 186588401.04,
+          "gmv_recuperado": 51479221.68,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São Lourenço",
-          "gmv": 298034.33,
+          "gmv": 8046926.91,
           "pedidos": 2059,
           "cancel_pct": 5.3,
           "ruptura_pct": 34.9,
-          "ating_pct": 1.7,
-          "nps": null
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 93.0,
+          "online_pct": 11.4,
+          "gmv_rupturado": 37230714.75,
+          "gmv_recuperado": 10728600.75,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Parque Tingui",
-          "gmv": 259267.38,
+          "gmv": 7000219.26,
           "pedidos": 1486,
           "cancel_pct": 4.5,
           "ruptura_pct": 46.9,
-          "ating_pct": 2.2,
-          "nps": null
+          "ating_pct_meta": 2.2,
+          "sla_sep_pct": 93.3,
+          "online_pct": 11.5,
+          "gmv_rupturado": 28306487.48,
+          "gmv_recuperado": 13803945.08,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - São José dos pinhais",
-          "gmv": 194647.49,
+          "gmv": 5255482.23,
           "pedidos": 1436,
           "cancel_pct": 4.2,
           "ruptura_pct": 35.4,
-          "ating_pct": 1.7,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 83.9,
+          "online_pct": 11.4,
+          "gmv_rupturado": 18306567.48,
+          "gmv_recuperado": 4310254.58,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Cascavel - Centro",
-          "gmv": 188066.33,
+          "gmv": 5077790.91,
           "pedidos": 885,
           "cancel_pct": 3.6,
           "ruptura_pct": 51.4,
-          "ating_pct": 2.7,
-          "nps": null
+          "ating_pct_meta": 2.9,
+          "sla_sep_pct": 4630.0,
+          "online_pct": 9.4,
+          "gmv_rupturado": 13509590.94,
+          "gmv_recuperado": 2697038.1,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Av Brasil",
-          "gmv": 123843.85,
+          "gmv": 3343783.95,
           "pedidos": 567,
           "cancel_pct": 8.7,
           "ruptura_pct": 55.0,
-          "ating_pct": 3.4,
-          "nps": null
+          "ating_pct_meta": 3.6,
+          "sla_sep_pct": 1200.0,
+          "online_pct": 9.6,
+          "gmv_rupturado": 7588228.77,
+          "gmv_recuperado": 1304323.56,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Pinhais",
-          "gmv": 111644.05,
+          "gmv": 3014389.35,
           "pedidos": 907,
           "cancel_pct": 5.6,
           "ruptura_pct": 30.5,
-          "ating_pct": 3.5,
-          "nps": null
+          "ating_pct_meta": 3.5,
+          "sla_sep_pct": 97.6,
+          "online_pct": 12.5,
+          "gmv_rupturado": 7000596.7,
+          "gmv_recuperado": 1557790.61,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Tancredo Neves",
-          "gmv": 91959.63,
+          "gmv": 2482910.01,
           "pedidos": 499,
           "cancel_pct": 6.7,
           "ruptura_pct": 47.9,
-          "ating_pct": 3.4,
-          "nps": null
+          "ating_pct_meta": 3.6,
+          "sla_sep_pct": 3212.5,
+          "online_pct": 7.2,
+          "gmv_rupturado": 3493913.8,
+          "gmv_recuperado": 1112222.2,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval - Faculdade",
-          "gmv": 56489.92,
+          "gmv": 1525227.84,
           "pedidos": 362,
           "cancel_pct": 3.7,
           "ruptura_pct": 43.6,
-          "ating_pct": 4.8,
-          "nps": null
+          "ating_pct_meta": 5.2,
+          "sla_sep_pct": 2000.0,
+          "online_pct": 10.2,
+          "gmv_rupturado": 1080150.24,
+          "gmv_recuperado": 514014.56,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Festval Carlos Gomes",
-          "gmv": 48616.59,
+          "gmv": 1312647.93,
           "pedidos": 264,
           "cancel_pct": 4.0,
           "ruptura_pct": 40.2,
-          "ating_pct": 7.2,
-          "nps": null
+          "ating_pct_meta": 7.7,
+          "sla_sep_pct": 909.5,
+          "online_pct": 9.1,
+          "gmv_rupturado": 493193.25,
+          "gmv_recuperado": 260477.25,
+          "nsu_pct": 0.0
         }
       ]
     },
@@ -2800,9 +3580,12 @@
           "pedidos": 92,
           "cancel_pct": 2.1,
           "ruptura_pct": 12.0,
-          "nps": null,
-          "meta_gmv": 12263.76,
-          "ating_pct": 85.5
+          "ating_pct_meta": 0.9,
+          "sla_sep_pct": 98.0,
+          "online_pct": 12.3,
+          "gmv_rupturado": 10293.94,
+          "gmv_recuperado": 2052.02,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Capão Raso",
@@ -2810,9 +3593,12 @@
           "pedidos": 72,
           "cancel_pct": 1.4,
           "ruptura_pct": 33.3,
-          "nps": null,
-          "meta_gmv": 6690.41,
-          "ating_pct": 141.4
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 87.2,
+          "online_pct": 12.0,
+          "gmv_rupturado": 17531.68,
+          "gmv_recuperado": 20420.29,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Fazenda Rio Grande",
@@ -2820,9 +3606,12 @@
           "pedidos": 57,
           "cancel_pct": 3.4,
           "ruptura_pct": 15.8,
-          "nps": null,
-          "meta_gmv": 5899.54,
-          "ating_pct": 111.6
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 98.4,
+          "online_pct": 12.0,
+          "gmv_rupturado": 7364.38,
+          "gmv_recuperado": 1175.87,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Colônia Rio Grande -",
@@ -2830,9 +3619,12 @@
           "pedidos": 41,
           "cancel_pct": 0.0,
           "ruptura_pct": 26.8,
-          "nps": null,
-          "meta_gmv": 6301.62,
-          "ating_pct": 94.0
+          "ating_pct_meta": 2.3,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.5,
+          "gmv_rupturado": 10363.98,
+          "gmv_recuperado": 224.68,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Pinhais",
@@ -2840,9 +3632,12 @@
           "pedidos": 42,
           "cancel_pct": 0.0,
           "ruptura_pct": 42.9,
-          "nps": null,
-          "meta_gmv": 6799.77,
-          "ating_pct": 66.9
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 93.0,
+          "online_pct": 13.5,
+          "gmv_rupturado": 9446.22,
+          "gmv_recuperado": 450.66,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Br277",
@@ -2850,9 +3645,12 @@
           "pedidos": 29,
           "cancel_pct": 3.3,
           "ruptura_pct": 24.1,
-          "nps": null,
-          "meta_gmv": 5803.31,
-          "ating_pct": 52.7
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 7044.9,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Ganchinho",
@@ -2860,9 +3658,25 @@
           "pedidos": 16,
           "cancel_pct": 5.9,
           "ruptura_pct": 18.8,
-          "nps": null,
-          "meta_gmv": 3872.4,
-          "ating_pct": 45.5
+          "ating_pct_meta": 2.7,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 481.78,
+          "gmv_recuperado": 317.56,
+          "nsu_pct": 0.0
+        },
+        {
+          "nome": "Jaco - Smart Market",
+          "gmv": 0.0,
+          "pedidos": 0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "D-7": [
@@ -2872,9 +3686,12 @@
           "pedidos": 90,
           "cancel_pct": 0.0,
           "ruptura_pct": 26.7,
-          "nps": null,
-          "meta_gmv": 13119.09,
-          "ating_pct": 78.4
+          "ating_pct_meta": 0.9,
+          "sla_sep_pct": 95.9,
+          "online_pct": 12.3,
+          "gmv_rupturado": 19101.6,
+          "gmv_recuperado": 8165.7,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Capão Raso",
@@ -2882,9 +3699,12 @@
           "pedidos": 85,
           "cancel_pct": 4.5,
           "ruptura_pct": 48.2,
-          "nps": null,
-          "meta_gmv": 7157.03,
-          "ating_pct": 141.3
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 97.7,
+          "online_pct": 12.0,
+          "gmv_rupturado": 80002.1,
+          "gmv_recuperado": 23037.65,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Br277",
@@ -2892,9 +3712,12 @@
           "pedidos": 53,
           "cancel_pct": 5.4,
           "ruptura_pct": 28.3,
-          "nps": null,
-          "meta_gmv": 6208.06,
-          "ating_pct": 106.1
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 98.1,
+          "online_pct": 12.0,
+          "gmv_rupturado": 8262.8,
+          "gmv_recuperado": 6070.96,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Colônia Rio Grande -",
@@ -2902,9 +3725,12 @@
           "pedidos": 46,
           "cancel_pct": 0.0,
           "ruptura_pct": 50.0,
-          "nps": null,
-          "meta_gmv": 6741.13,
-          "ating_pct": 88.4
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.5,
+          "gmv_rupturado": 26178.6,
+          "gmv_recuperado": 277.84,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Fazenda Rio Grande",
@@ -2912,9 +3738,12 @@
           "pedidos": 47,
           "cancel_pct": 2.1,
           "ruptura_pct": 14.9,
-          "nps": null,
-          "meta_gmv": 6311.0,
-          "ating_pct": 83.5
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 737.28,
+          "gmv_recuperado": 4480.32,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Pinhais",
@@ -2922,9 +3751,12 @@
           "pedidos": 32,
           "cancel_pct": 0.0,
           "ruptura_pct": 21.9,
-          "nps": null,
-          "meta_gmv": 7274.02,
-          "ating_pct": 48.0
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.8,
+          "gmv_rupturado": 3271.36,
+          "gmv_recuperado": 1799.04,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Ganchinho",
@@ -2932,9 +3764,25 @@
           "pedidos": 18,
           "cancel_pct": 5.3,
           "ruptura_pct": 16.7,
-          "nps": null,
-          "meta_gmv": 4142.48,
-          "ating_pct": 52.5
+          "ating_pct_meta": 2.8,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.3,
+          "gmv_rupturado": 1316.7,
+          "gmv_recuperado": 1148.55,
+          "nsu_pct": 0.0
+        },
+        {
+          "nome": "Jaco - Smart Market",
+          "gmv": 0.0,
+          "pedidos": 0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "D-15": [
@@ -2944,9 +3792,12 @@
           "pedidos": 89,
           "cancel_pct": 1.1,
           "ruptura_pct": 27.0,
-          "nps": null,
-          "meta_gmv": 12337.95,
-          "ating_pct": 91.5
+          "ating_pct_meta": 1.0,
+          "sla_sep_pct": 93.4,
+          "online_pct": 12.3,
+          "gmv_rupturado": 38320.2,
+          "gmv_recuperado": 9182.7,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Capão Raso",
@@ -2954,9 +3805,12 @@
           "pedidos": 82,
           "cancel_pct": 1.2,
           "ruptura_pct": 36.6,
-          "nps": null,
-          "meta_gmv": 6730.89,
-          "ating_pct": 127.4
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 82.1,
+          "online_pct": 12.0,
+          "gmv_rupturado": 27033.1,
+          "gmv_recuperado": 19534.05,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Pinhais",
@@ -2964,9 +3818,12 @@
           "pedidos": 51,
           "cancel_pct": 1.9,
           "ruptura_pct": 49.0,
-          "nps": null,
-          "meta_gmv": 6840.91,
-          "ating_pct": 80.1
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 80.8,
+          "online_pct": 13.5,
+          "gmv_rupturado": 20310.16,
+          "gmv_recuperado": 3599.96,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Br277",
@@ -2974,9 +3831,12 @@
           "pedidos": 38,
           "cancel_pct": 0.0,
           "ruptura_pct": 50.0,
-          "nps": null,
-          "meta_gmv": 5838.41,
-          "ating_pct": 81.1
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 15184.8,
+          "gmv_recuperado": 1460.34,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Fazenda Rio Grande",
@@ -2984,9 +3844,12 @@
           "pedidos": 44,
           "cancel_pct": 6.4,
           "ruptura_pct": 11.4,
-          "nps": null,
-          "meta_gmv": 5935.23,
-          "ating_pct": 67.1
+          "ating_pct_meta": 1.4,
+          "sla_sep_pct": 97.8,
+          "online_pct": 12.0,
+          "gmv_rupturado": 5742.46,
+          "gmv_recuperado": 2065.18,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Colônia Rio Grande -",
@@ -2994,9 +3857,12 @@
           "pedidos": 33,
           "cancel_pct": 5.7,
           "ruptura_pct": 51.5,
-          "nps": null,
-          "meta_gmv": 6339.75,
-          "ating_pct": 56.4
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 100.0,
+          "online_pct": 12.5,
+          "gmv_rupturado": 8856.75,
+          "gmv_recuperado": 141.75,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Ganchinho",
@@ -3004,9 +3870,25 @@
           "pedidos": 21,
           "cancel_pct": 0.0,
           "ruptura_pct": 23.8,
-          "nps": null,
-          "meta_gmv": 3895.83,
-          "ating_pct": 77.6
+          "ating_pct_meta": 3.7,
+          "sla_sep_pct": 95.7,
+          "online_pct": 12.0,
+          "gmv_rupturado": 1249.5,
+          "gmv_recuperado": 253.68,
+          "nsu_pct": 0.0
+        },
+        {
+          "nome": "Jaco - Smart Market",
+          "gmv": 0.0,
+          "pedidos": 0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "D-21": [
@@ -3016,9 +3898,12 @@
           "pedidos": 109,
           "cancel_pct": 1.8,
           "ruptura_pct": 25.7,
-          "nps": null,
-          "meta_gmv": 12998.93,
-          "ating_pct": 102.1
+          "ating_pct_meta": 0.9,
+          "sla_sep_pct": 97.5,
+          "online_pct": 12.3,
+          "gmv_rupturado": 56715.45,
+          "gmv_recuperado": 5219.22,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Colônia Rio Grande -",
@@ -3026,9 +3911,12 @@
           "pedidos": 51,
           "cancel_pct": 1.9,
           "ruptura_pct": 43.1,
-          "nps": null,
-          "meta_gmv": 6679.39,
-          "ating_pct": 110.4
+          "ating_pct_meta": 2.1,
+          "sla_sep_pct": 98.2,
+          "online_pct": 12.5,
+          "gmv_rupturado": 24610.04,
+          "gmv_recuperado": 856.96,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Fazenda Rio Grande",
@@ -3036,9 +3924,12 @@
           "pedidos": 56,
           "cancel_pct": 6.7,
           "ruptura_pct": 12.5,
-          "nps": null,
-          "meta_gmv": 6253.2,
-          "ating_pct": 108.6
+          "ating_pct_meta": 1.8,
+          "sla_sep_pct": 85.2,
+          "online_pct": 12.0,
+          "gmv_rupturado": 6425.4,
+          "gmv_recuperado": 948.0,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Capão Raso",
@@ -3046,9 +3937,12 @@
           "pedidos": 63,
           "cancel_pct": 8.7,
           "ruptura_pct": 36.5,
-          "nps": null,
-          "meta_gmv": 7091.48,
-          "ating_pct": 93.0
+          "ating_pct_meta": 1.3,
+          "sla_sep_pct": 92.6,
+          "online_pct": 10.0,
+          "gmv_rupturado": 36159.45,
+          "gmv_recuperado": 19360.71,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Pinhais",
@@ -3056,9 +3950,12 @@
           "pedidos": 41,
           "cancel_pct": 2.4,
           "ruptura_pct": 39.0,
-          "nps": null,
-          "meta_gmv": 7207.4,
-          "ating_pct": 77.9
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 94.1,
+          "online_pct": 12.5,
+          "gmv_rupturado": 10786.02,
+          "gmv_recuperado": 4193.7,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Br277",
@@ -3066,9 +3963,12 @@
           "pedidos": 41,
           "cancel_pct": 2.4,
           "ruptura_pct": 36.6,
-          "nps": null,
-          "meta_gmv": 6151.2,
-          "ating_pct": 67.8
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 98.0,
+          "online_pct": 12.0,
+          "gmv_rupturado": 15710.1,
+          "gmv_recuperado": 276.36,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Ganchinho",
@@ -3076,157 +3976,237 @@
           "pedidos": 18,
           "cancel_pct": 0.0,
           "ruptura_pct": 22.2,
-          "nps": null,
-          "meta_gmv": 4104.54,
-          "ating_pct": 55.0
+          "ating_pct_meta": 3.1,
+          "sla_sep_pct": 95.5,
+          "online_pct": 12.3,
+          "gmv_rupturado": 2122.56,
+          "gmv_recuperado": 593.28,
+          "nsu_pct": 0.0
+        },
+        {
+          "nome": "Jaco - Smart Market",
+          "gmv": 0.0,
+          "pedidos": 0,
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "MTD": [
         {
           "nome": "Jacomar - Maestro",
-          "gmv": 328883.47,
+          "gmv": 8879853.69,
           "pedidos": 2588,
           "cancel_pct": 2.9,
           "ruptura_pct": 30.1,
-          "ating_pct": 97.7,
-          "nps": null
+          "ating_pct_meta": 1.0,
+          "sla_sep_pct": 80.0,
+          "online_pct": 10.4,
+          "gmv_rupturado": 33075611.28,
+          "gmv_recuperado": 4074721.2,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Capão Raso",
-          "gmv": 221816.41,
+          "gmv": 5989043.07,
           "pedidos": 1947,
           "cancel_pct": 7.7,
           "ruptura_pct": 36.4,
-          "ating_pct": 104.5,
-          "nps": null
+          "ating_pct_meta": 1.5,
+          "sla_sep_pct": 80.8,
+          "online_pct": 9.6,
+          "gmv_rupturado": 19640442.12,
+          "gmv_recuperado": 9375580.59,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Fazenda Rio Grande",
-          "gmv": 175990.49,
+          "gmv": 4751743.23,
           "pedidos": 1560,
           "cancel_pct": 4.4,
           "ruptura_pct": 23.4,
-          "ating_pct": 100.8,
-          "nps": null
+          "ating_pct_meta": 1.7,
+          "sla_sep_pct": 70.4,
+          "online_pct": 10.2,
+          "gmv_rupturado": 6372290.88,
+          "gmv_recuperado": 3390577.92,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Colônia Rio Grande -",
-          "gmv": 169644.46,
+          "gmv": 4580400.42,
           "pedidos": 1322,
           "cancel_pct": 2.9,
           "ruptura_pct": 31.8,
-          "ating_pct": 95.4,
-          "nps": null
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 83.4,
+          "online_pct": 10.6,
+          "gmv_rupturado": 9258270.55,
+          "gmv_recuperado": 1033148.71,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Br277",
-          "gmv": 143054.87,
+          "gmv": 3862481.49,
           "pedidos": 1186,
           "cancel_pct": 4.6,
           "ruptura_pct": 47.3,
-          "ating_pct": 109.4,
-          "nps": null
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 87.6,
+          "online_pct": 10.2,
+          "gmv_rupturado": 12325426.41,
+          "gmv_recuperado": 1414446.99,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Pinhais",
-          "gmv": 136961.02,
+          "gmv": 3697947.54,
           "pedidos": 1168,
           "cancel_pct": 4.2,
           "ruptura_pct": 33.6,
-          "ating_pct": 104.6,
-          "nps": null
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 79.3,
+          "online_pct": 11.0,
+          "gmv_rupturado": 7698472.6,
+          "gmv_recuperado": 1312485.11,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Ganchinho",
-          "gmv": 100633.23,
+          "gmv": 2717097.21,
           "pedidos": 733,
           "cancel_pct": 3.6,
           "ruptura_pct": 32.3,
-          "ating_pct": 102.7,
-          "nps": null
+          "ating_pct_meta": 3.2,
+          "sla_sep_pct": 84.1,
+          "online_pct": 10.3,
+          "gmv_rupturado": 2267733.6,
+          "gmv_recuperado": 977990.8,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jaco - Smart Market",
           "gmv": 0.0,
           "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "ating_pct": 0.0,
-          "nps": null
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ],
       "CONSOLIDADO": [
         {
           "nome": "Jacomar - Maestro",
-          "gmv": 321404.87,
+          "gmv": 8677931.49,
           "pedidos": 2609,
           "cancel_pct": 3.5,
           "ruptura_pct": 29.3,
-          "ating_pct": 0.9,
-          "nps": null
+          "ating_pct_meta": 0.9,
+          "sla_sep_pct": 73.5,
+          "online_pct": 10.2,
+          "gmv_rupturado": 27794813.85,
+          "gmv_recuperado": 7049721.33,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Capão Raso",
-          "gmv": 231845.44,
+          "gmv": 6259826.88,
           "pedidos": 1983,
           "cancel_pct": 6.6,
           "ruptura_pct": 41.0,
-          "ating_pct": 1.5,
-          "nps": null
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 85.2,
+          "online_pct": 9.8,
+          "gmv_rupturado": 23945444.38,
+          "gmv_recuperado": 11811289.27,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Supermercado Jacomar - Fazenda Rio Grande",
-          "gmv": 177415.08,
+          "gmv": 4790207.16,
           "pedidos": 1512,
           "cancel_pct": 4.4,
           "ruptura_pct": 21.9,
-          "ating_pct": 1.7,
-          "nps": null
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 75.7,
+          "online_pct": 10.1,
+          "gmv_rupturado": 5732851.6,
+          "gmv_recuperado": 2378663.56,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Colônia Rio Grande -",
-          "gmv": 161866.42,
+          "gmv": 4370393.34,
           "pedidos": 1228,
           "cancel_pct": 4.9,
           "ruptura_pct": 43.7,
-          "ating_pct": 1.8,
-          "nps": null
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 86.8,
+          "online_pct": 10.6,
+          "gmv_rupturado": 14075192.05,
+          "gmv_recuperado": 813226.72,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Br277",
-          "gmv": 156561.65,
+          "gmv": 4227164.55,
           "pedidos": 1311,
           "cancel_pct": 4.7,
           "ruptura_pct": 45.1,
-          "ating_pct": 1.8,
-          "nps": null
+          "ating_pct_meta": 1.9,
+          "sla_sep_pct": 82.5,
+          "online_pct": 10.2,
+          "gmv_rupturado": 14740605.0,
+          "gmv_recuperado": 1731661.25,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Pinhais",
-          "gmv": 143227.69,
+          "gmv": 3867147.63,
           "pedidos": 1221,
           "cancel_pct": 3.6,
           "ruptura_pct": 39.4,
-          "ating_pct": 1.5,
-          "nps": null
+          "ating_pct_meta": 1.6,
+          "sla_sep_pct": 72.4,
+          "online_pct": 10.9,
+          "gmv_rupturado": 9364903.8,
+          "gmv_recuperado": 2274999.86,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jacomar Ganchinho",
-          "gmv": 103321.34,
+          "gmv": 2789676.18,
           "pedidos": 741,
           "cancel_pct": 5.8,
           "ruptura_pct": 29.6,
-          "ating_pct": 3.0,
-          "nps": null
+          "ating_pct_meta": 3.3,
+          "sla_sep_pct": 81.7,
+          "online_pct": 10.2,
+          "gmv_rupturado": 2112898.25,
+          "gmv_recuperado": 951372.82,
+          "nsu_pct": 0.0
         },
         {
           "nome": "Jaco - Smart Market",
           "gmv": 0.0,
           "pedidos": 0,
-          "cancel_pct": null,
-          "ruptura_pct": null,
-          "ating_pct": null,
-          "nps": null
+          "cancel_pct": 0.0,
+          "ruptura_pct": 0.0,
+          "ating_pct_meta": 0.0,
+          "sla_sep_pct": 0.0,
+          "online_pct": 0.0,
+          "gmv_rupturado": 0.0,
+          "gmv_recuperado": 0.0,
+          "nsu_pct": 0.0
         }
       ]
     }
