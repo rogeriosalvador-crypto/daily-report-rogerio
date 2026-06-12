@@ -2,362 +2,196 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Relatório Diário — Carteira Rogério Salvador</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Carteira Rogério | Daily</title>
 <style>
-  :root {
-    --bg-dark: #0F0F1A;
-    --bg-card: #1A1A2E;
-    --ifood-red: #EA1D2C;
-    --ifood-red-dark: #B71C2B;
-    --green-ok: #27AE60;
-    --yellow-warn: #F39C12;
-    --red-alert: #E74C3C;
-    --text-primary: #FFFFFF;
-    --text-secondary: #B0BEC5;
-    --border: #2C3E50;
-    --bg-table-head: #16213E;
-    --hover: #22304a;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: var(--bg-dark);
-    color: var(--text-primary);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    font-size: 14px;
-    min-height: 100vh;
-    padding: 20px;
-  }
-  .container { max-width: 1200px; margin: 0 auto; }
-  
-  /* HEADER */
-  .header {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  .header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 12px;
-  }
-  .logo {
-    font-size: 22px;
-    font-weight: 800;
-    color: var(--ifood-red);
-    letter-spacing: 0.5px;
-  }
-  .update-badge {
-    background: var(--ifood-red-dark);
-    color: white;
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .header-subtitle {
-    color: var(--text-secondary);
-    font-size: 13px;
-  }
-  .ref-date {
-    font-weight: 600;
-    color: var(--text-primary);
-  }
-
-  /* CARDS GRID */
-  .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 16px;
-    margin-bottom: 24px;
-  }
-  .card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-  }
-  .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--border);
-  }
-  .card-title {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text-primary);
-  }
-  .semaforo {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .semaforo.verde { background: var(--green-ok); box-shadow: 0 0 8px var(--green-ok); }
-  .semaforo.amarelo { background: var(--yellow-warn); box-shadow: 0 0 8px var(--yellow-warn); }
-  .semaforo.vermelho { background: var(--red-alert); box-shadow: 0 0 8px var(--red-alert); }
-  
-  .metric-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 12px;
-  }
-  .metric {
-    background: rgba(255, 255, 255, 0.03);
-    padding: 10px;
-    border-radius: 8px;
-  }
-  .metric-label {
-    font-size: 11px;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 4px;
-  }
-  .metric-value {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--text-primary);
-  }
-  .metric-large {
-    grid-column: 1 / -1;
-  }
-  .metric-large .metric-value {
-    font-size: 28px;
-    color: var(--ifood-red);
-  }
-  .ating-badge {
-    display: inline-block;
-    padding: 4px 10px;
-    border-radius: 6px;
-    font-weight: 700;
-    font-size: 18px;
-    margin-left: 8px;
-  }
-  .ating-badge.verde { background: var(--green-ok); color: white; }
-  .ating-badge.amarelo { background: var(--yellow-warn); color: white; }
-  .ating-badge.vermelho { background: var(--red-alert); color: white; }
-  
-  .variacao {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 13px;
-    font-weight: 600;
-  }
-  .variacao.positivo { color: var(--green-ok); }
-  .variacao.negativo { color: var(--red-alert); }
-  .arrow { font-size: 16px; }
-
-  /* TABLE MTD */
-  .mtd-section {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-  }
-  .section-title {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 16px;
-    color: var(--ifood-red);
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  thead {
-    background: var(--bg-table-head);
-  }
-  th {
-    text-align: left;
-    padding: 12px;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    color: var(--text-secondary);
-    font-weight: 600;
-  }
-  td {
-    padding: 12px;
-    border-top: 1px solid var(--border);
-    font-size: 14px;
-  }
-  tbody tr:hover {
-    background: var(--hover);
-  }
-  .valor-positivo { color: var(--green-ok); font-weight: 600; }
-  .valor-negativo { color: var(--red-alert); font-weight: 600; }
-
-  @media (max-width: 768px) {
-    .cards-grid {
-      grid-template-columns: 1fr;
-    }
-    .header-top {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0F0F1A;color:#e0e0e0;font-family:system-ui,sans-serif;min-height:100vh}
+.header{background:#1A1A2E;border-bottom:3px solid #EA1D2C;padding:1rem 1.5rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
+.header h1{font-size:1.2rem;color:#fff}
+.badge{background:#EA1D2C;color:#fff;padding:.25rem .6rem;border-radius:20px;font-size:.78rem}
+.badge-ok{background:#16a34a}
+.tabs{display:flex;gap:.5rem;padding:.75rem 1.5rem;background:#12122a;flex-wrap:wrap}
+.tab{padding:.4rem .9rem;border-radius:20px;cursor:pointer;border:1px solid #333;font-size:.85rem;color:#aaa;background:transparent}
+.tab.active,.tab:hover{background:#EA1D2C;color:#fff;border-color:#EA1D2C}
+.container{padding:1.5rem;max-width:1400px;margin:0 auto}
+.section-title{color:#EA1D2C;font-size:1rem;font-weight:700;margin-bottom:.75rem;text-transform:uppercase;letter-spacing:.05em}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin-bottom:2rem}
+.card{background:#1A1A2E;border-radius:10px;padding:1.25rem;border:1px solid #2a2a4a}
+.card-title{font-size:.95rem;font-weight:700;color:#fff;margin-bottom:.75rem;border-bottom:1px solid #EA1D2C;padding-bottom:.4rem}
+.card-row{display:flex;justify-content:space-between;align-items:center;padding:.2rem 0;font-size:.85rem}
+.card-row .label{color:#888}
+.card-row .val{font-weight:600;color:#e0e0e0}
+.pill{display:inline-block;padding:.15rem .5rem;border-radius:10px;font-size:.78rem;font-weight:700}
+.pill-green{background:#15803d;color:#d1fae5}
+.pill-yellow{background:#92400e;color:#fef3c7}
+.pill-red{background:#991b1b;color:#fee2e2}
+.pill-gray{background:#374151;color:#d1d5db}
+.gmv-main{font-size:1.4rem;font-weight:700;color:#EA1D2C}
+.table-wrap{overflow-x:auto;border-radius:8px;margin-bottom:2rem}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{background:#1e1e3a;color:#aaa;padding:.5rem .6rem;text-align:left;white-space:nowrap;border-bottom:2px solid #EA1D2C}
+td{padding:.4rem .6rem;border-bottom:1px solid #1a1a2e;white-space:nowrap}
+tr:hover td{background:#1a1a2e}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px}
+.dot-green{background:#16a34a}
+.dot-yellow{background:#ca8a04}
+.dot-red{background:#dc2626}
+.dot-gray{background:#6b7280}
+.selects{display:flex;gap:.75rem;margin-bottom:.75rem;flex-wrap:wrap}
+select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7rem;border-radius:6px;font-size:.85rem;cursor:pointer}
+.mtd-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:2rem}
+.mtd-card{background:#1A1A2E;border-radius:8px;padding:1rem;border:1px solid #2a2a4a}
+.mtd-card h3{color:#aaa;font-size:.8rem;text-transform:uppercase;margin-bottom:.5rem}
+.mtd-val{font-size:1.3rem;font-weight:700;color:#fff}
+.mtd-sub{font-size:.8rem;color:#888;margin-top:.2rem}
+.var-pos{color:#4ade80}
+.var-neg{color:#f87171}
+.tab-section{display:none}
+.tab-section.active{display:block}
 </style>
 </head>
 <body>
-<div class="container">
-  <!-- HEADER -->
-  <div class="header">
-    <div class="header-top">
-      <div class="logo">iFood</div>
-      <div class="update-badge">Atualizado em: {{ data.data_atualizacao }}</div>
-    </div>
-    <div class="header-subtitle">
-      Relatório Diário — Carteira Rogério Salvador
-      <span class="ref-date">{{ data.data_referencia }}</span>
-    </div>
-  </div>
-
-  <!-- CARDS GRUPOS -->
-  <div class="cards-grid">
-    {% for grupo_nome, grupo in data.grupos.items() %}
-    <div class="card">
-      <div class="card-header">
-        <div class="card-title">{{ grupo_nome }}</div>
-        {% if grupo.ating_pct >= 100 %}
-        <div class="semaforo verde"></div>
-        {% elif grupo.ating_pct >= 85 %}
-        <div class="semaforo amarelo"></div>
-        {% else %}
-        <div class="semaforo vermelho"></div>
-        {% endif %}
-      </div>
-      
-      <div class="metric-row">
-        <div class="metric metric-large">
-          <div class="metric-label">GMV</div>
-          <div class="metric-value">
-            R$ {{ "{:,.2f}".format(grupo.gmv).replace(',', 'X').replace('.', ',').replace('X', '.') }}
-            <span class="ating-badge {% if grupo.ating_pct >= 100 %}verde{% elif grupo.ating_pct >= 85 %}amarelo{% else %}vermelho{% endif %}">
-              {{ grupo.ating_pct }}%
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="metric-row">
-        <div class="metric">
-          <div class="metric-label">Meta GMV</div>
-          <div class="metric-value">R$ {{ "{:,.2f}".format(grupo.meta_gmv).replace(',', 'X').replace('.', ',').replace('X', '.') }}</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">Pedidos</div>
-          <div class="metric-value">{{ grupo.pedidos }}</div>
-        </div>
-      </div>
-
-      <div class="metric-row">
-        <div class="metric">
-          <div class="metric-label">AOV</div>
-          <div class="metric-value">R$ {{ "{:.2f}".format(grupo.aov).replace('.', ',') }}</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">CAP/FAT</div>
-          <div class="metric-value">{{ grupo.cap_fat }}%</div>
-        </div>
-      </div>
-
-      <div class="metric-row">
-        <div class="metric">
-          <div class="metric-label">Cancelamento</div>
-          <div class="metric-value">{{ grupo.cancel_pct }}%</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">Ruptura</div>
-          <div class="metric-value">{{ grupo.ruptura_pct }}%</div>
-        </div>
-      </div>
-
-      <div class="metric-row">
-        <div class="metric">
-          <div class="metric-label">ER</div>
-          <div class="metric-value">{{ grupo.er_pct }}%</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">NPS</div>
-          <div class="metric-value">{{ grupo.nps }}</div>
-        </div>
-      </div>
-
-      {% if grupo.inv_merchant > 0 %}
-      <div class="metric-row">
-        <div class="metric">
-          <div class="metric-label">Inv. Merchant</div>
-          <div class="metric-value">R$ {{ "{:,.2f}".format(grupo.inv_merchant).replace(',', 'X').replace('.', ',').replace('X', '.') }}</div>
-        </div>
-        <div class="metric">
-          <div class="metric-label">% Inv. Merchant</div>
-          <div class="metric-value">{{ grupo.pct_inv_merchant }}%</div>
-        </div>
-      </div>
-      {% endif %}
-
-      <div class="metric-row">
-        <div class="metric metric-large">
-          <div class="metric-label">Variação vs D-7</div>
-          <div class="metric-value">
-            {% set var_d7 = ((grupo.gmv / grupo.gmv_d7 - 1) * 100) if grupo.gmv_d7 > 0 else 0 %}
-            <span class="variacao {% if var_d7 >= 0 %}positivo{% else %}negativo{% endif %}">
-              <span class="arrow">{% if var_d7 >= 0 %}▲{% else %}▼{% endif %}</span>
-              {{ "{:.1f}".format(var_d7|abs).replace('.', ',') }}%
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-
-  <!-- TABELA MTD -->
-  <div class="mtd-section">
-    <div class="section-title">📊 Month-to-Date (MTD)</div>
-    <table>
-      <thead>
-        <tr>
-          <th>Grupo</th>
-          <th style="text-align: right;">GMV Atual</th>
-          <th style="text-align: right;">GMV Mês Anterior</th>
-          <th style="text-align: right;">Variação</th>
-          <th style="text-align: right;">Ating%</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for grupo_nome, mtd in data.mtd.items() %}
-        <tr>
-          <td><strong>{{ grupo_nome }}</strong></td>
-          <td style="text-align: right;">R$ {{ "{:,.2f}".format(mtd.gmv_atual).replace(',', 'X').replace('.', ',').replace('X', '.') }}</td>
-          <td style="text-align: right;">R$ {{ "{:,.2f}".format(mtd.gmv_ant).replace(',', 'X').replace('.', ',').replace('X', '.') }}</td>
-          <td style="text-align: right;">
-            {% set var = ((mtd.gmv_atual / mtd.gmv_ant - 1) * 100) if mtd.gmv_ant > 0 else 0 %}
-            <span class="{% if var >= 0 %}valor-positivo{% else %}valor-negativo{% endif %}">
-              {% if var >= 0 %}+{% endif %}{{ "{:.1f}".format(var).replace('.', ',') }}%
-            </span>
-          </td>
-          <td style="text-align: right;">
-            <span class="{% if mtd.ating_pct >= 100 %}valor-positivo{% else %}valor-negativo{% endif %}">
-              {{ mtd.ating_pct }}%
-            </span>
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
+<div class="header">
+  <h1>📊 Carteira Rogério Salvador</h1>
+  {% if data %}
+  <span class="badge">D-1: {{ data.get('data_referencia','—') }}</span>
+  <span class="badge badge-ok">Atualizado: {{ data.get('data_atualizacao','—') }}</span>
+  {% else %}
+  <span class="badge">Sem dados</span>
+  {% endif %}
 </div>
+
+{% if not data %}
+<div class="container"><p style="color:#f87171;margin-top:2rem">⚠️ Dados não disponíveis. POST /atualizar para inserir dados.</p></div>
+{% else %}
+<div class="container">
+
+<!-- S1: CARDS DOS GRUPOS -->
+<div class="section-title">Resumo D-1</div>
+<div class="cards">
+{% for g in grupos %}{% set gd = data.get('grupos',{}).get(g,{}) %}
+<div class="card">
+  <div class="card-title">{{ g }}</div>
+  <div class="card-row"><span class="label">GMV D-1</span><span class="gmv-main">{{ fmt_brl(gd.get('gmv')) }}</span></div>
+  <div class="card-row"><span class="label">Atingimento</span><span class="pill pill-{{ semaforo('ating_pct', gd.get('ating_pct')) }}">{{ fmt_pct(gd.get('ating_pct')) }}</span></div>
+  <div class="card-row"><span class="label">Pedidos</span><span class="val">{{ gd.get('pedidos','—') }}</span></div>
+  <div class="card-row"><span class="label">AOV</span><span class="val">{{ fmt_brl(gd.get('aov')) }}</span></div>
+  <div class="card-row"><span class="label">Cancel%</span><span class="val"><span class="dot dot-{{ semaforo('cancel_pct',gd.get('cancel_pct')) }}"></span>{{ fmt_pct(gd.get('cancel_pct')) }}</span></div>
+  <div class="card-row"><span class="label">Ruptura%</span><span class="val"><span class="dot dot-{{ semaforo('ruptura_pct',gd.get('ruptura_pct')) }}"></span>{{ fmt_pct(gd.get('ruptura_pct')) }}</span></div>
+  <div class="card-row"><span class="label">NPS</span><span class="val"><span class="dot dot-{{ semaforo('nps',gd.get('nps')) }}"></span>{{ gd.get('nps','—') }}</span></div>
+  <div class="card-row"><span class="label">ER%</span><span class="val">{{ fmt_pct(gd.get('er_pct')) }}</span></div>
+</div>
+{% endfor %}
+</div>
+
+<!-- S2: COMPARATIVO DE PERÍODOS -->
+<div class="section-title">Comparativo de Períodos</div>
+<div class="tabs" id="periodoTabs">
+{% for g in grupos %}<div class="tab {% if loop.first %}active{% endif %}" onclick="showPeriodo('{{ g }}')">{{ g }}</div>{% endfor %}
+</div>
+{% for g in grupos %}
+<div id="periodo-{{ g }}" class="tab-section {% if loop.first %}active{% endif %}">
+<div class="table-wrap"><table>
+<thead><tr><th>Indicador</th><th>D-1</th><th>D-7</th><th>D-15</th><th>D-21</th><th>Var D1→D7</th></tr></thead>
+<tbody>
+{% set p = data.get('periodos',{}).get(g,{}) %}
+{% set d1 = p.get('D-1',{}) %}{% set d7 = p.get('D-7',{}) %}{% set d15 = p.get('D-15',{}) %}{% set d21 = p.get('D-21',{}) %}
+{% for ik, il in [('gmv','GMV'),('pedidos','Pedidos'),('aov','AOV'),('cancel_pct','Cancel%'),('ruptura_pct','Ruptura%'),('er_pct','ER%'),('nps','NPS'),('sla_pct','SLA%'),('online_pct','Online%'),('gmv_rupt','GMV Rupt'),('gmv_recup','GMV Recup'),('nsu_pct','NSU%')] %}
+{% set v1=d1.get(ik) %}{% set v7=d7.get(ik) %}{% set v15=d15.get(ik) %}{% set v21=d21.get(ik) %}
+{% macro fv(v) %}{% if ik in ['gmv','gmv_rupt','gmv_recup','aov'] %}{{ fmt_brl(v) }}{% elif ik in ['cancel_pct','ruptura_pct','er_pct','sla_pct','online_pct','nsu_pct'] %}<span class="dot dot-{{ semaforo(ik,v) }}"></span>{{ fmt_pct(v) }}{% else %}{{ v if v is not none else '—' }}{% endif %}{% endmacro %}
+<tr>
+<td><strong>{{ il }}</strong></td>
+<td>{{ fv(v1) }}</td>
+<td>{{ fv(v7) }}</td>
+<td>{{ fv(v15) }}</td>
+<td>{{ fv(v21) }}</td>
+<td>{% if v1 is not none and v7 is not none and v7 != 0 %}{% set var=((v1-v7)/v7*100)|round(1) %}<span class="{% if var>=0 %}var-pos{% else %}var-neg{% endif %}">{{ '+' if var>0 else '' }}{{ var }}%</span>{% else %}—{% endif %}</td>
+</tr>
+{% endfor %}
+</tbody></table></div></div>
+{% endfor %}
+
+<!-- S3: TABELA DE LOJAS -->
+<div class="section-title" style="margin-top:1.5rem">Lojas por Grupo</div>
+<div class="selects">
+  <select id="selGrupo" onchange="renderLojas()">{% for g in grupos %}<option value="{{ g }}">{{ g }}</option>{% endfor %}</select>
+  <select id="selPeriodo" onchange="renderLojas()">{% for p in periodos %}<option value="{{ p }}">{{ p }}</option>{% endfor %}</select>
+  <a id="btnExcel" href="/download/excel/NAGUMO" style="display:inline-block;background:#16a34a;color:#fff;padding:.4rem .9rem;border-radius:6px;text-decoration:none;font-size:.85rem">⬇ Excel</a>
+</div>
+<div class="table-wrap" id="lojasTable"></div>
+
+<!-- S4: MTD CONSOLIDADO -->
+<div class="section-title" style="margin-top:1.5rem">MTD Consolidado</div>
+<div class="mtd-grid">
+{% for g in grupos %}{% set m = data.get('mtd',{}).get(g,{}) %}
+<div class="mtd-card">
+  <h3>{{ g }}</h3>
+  <div class="mtd-val">{{ fmt_brl(m.get('gmv_atual')) }}</div>
+  <div class="mtd-sub">Mês anterior: {{ fmt_brl(m.get('gmv_ant')) }}</div>
+  {% if m.get('gmv_ant') and m.get('gmv_ant') != 0 %}
+  {% set var=((m.get('gmv_atual',0)-m.get('gmv_ant',0))/m.get('gmv_ant',0)*100)|round(1) %}
+  <div class="mtd-sub {% if var>=0 %}var-pos{% else %}var-neg{% endif %}">Var: {{ '+' if var>0 else '' }}{{ var }}%</div>
+  {% endif %}
+  <div class="mtd-sub">Meta: <span class="pill pill-{{ semaforo('ating_pct', m.get('ating_pct')) }}">{{ fmt_pct(m.get('ating_pct')) }}</span></div>
+</div>
+{% endfor %}
+</div>
+
+</div><!-- /container -->
+{% endif %}
+
+<script>
+var LOJAS = {{ lojas_json }};
+var COLS = ['nome','gmv','pedidos','ating_pct','aov','cancel_pct','ruptura_pct','er_pct','nps','sla_pct','online_pct','gmv_rupt','gmv_recup','nsu_pct'];
+var LABELS = ['Loja','GMV','Pedidos','Ating%','AOV','Cancel%','Ruptura%','ER%','NPS','SLA%','Online%','GMV Rupt','GMV Recup','NSU%'];
+var MONEY = ['gmv','aov','gmv_rupt','gmv_recup'];
+var PCTS = ['cancel_pct','ruptura_pct','er_pct','sla_pct','online_pct','nsu_pct','ating_pct'];
+
+function sem(k,v){
+  if(v==null)return'gray';
+  var bad={cancel_pct:[5,8],ruptura_pct:[10,25],er_pct:[10,20]};
+  var good={ating_pct:[90,80],nps:[70,50],sla_pct:[90,70],online_pct:[95,80]};
+  if(k in bad){var lo=bad[k][0],hi=bad[k][1];return v<lo?'green':v<hi?'yellow':'red';}
+  if(k in good){var hi=good[k][0],lo=good[k][1];return v>=hi?'green':v>=lo?'yellow':'red';}
+  return'gray';
+}
+function brl(v){if(v==null)return'—';return'R$ '+parseFloat(v).toLocaleString('pt-BR',{minimumFractionDigits:2});}
+function pct(v){if(v==null)return'—';return parseFloat(v).toFixed(1)+'%';}
+
+function renderLojas(){
+  var g=document.getElementById('selGrupo').value;
+  var p=document.getElementById('selPeriodo').value;
+  document.getElementById('btnExcel').href='/download/excel/'+g;
+  var rows=(LOJAS[g]&&LOJAS[g][p])?LOJAS[g][p]:[];
+  var h='<table><thead><tr>';
+  LABELS.forEach(function(l){h+='<th>'+l+'</th>';});
+  h+='</tr></thead><tbody>';
+  rows.forEach(function(r){
+    h+='<tr>';
+    COLS.forEach(function(c){
+      var v=r[c],cell='';
+      if(MONEY.indexOf(c)>=0){cell=brl(v);}
+      else if(PCTS.indexOf(c)>=0){cell='<span class="dot dot-'+sem(c,v)+'"></span>'+pct(v);}
+      else if(c==='nps'){cell='<span class="dot dot-'+sem('nps',v)+'"></span>'+(v!=null?parseFloat(v).toFixed(1):'—');}
+      else if(c==='pedidos'){cell=v!=null?parseInt(v):'—';}
+      else{cell=v!=null?v:'—';}
+      h+='<td>'+cell+'</td>';
+    });
+    h+='</tr>';
+  });
+  h+='</tbody></table>';
+  document.getElementById('lojasTable').innerHTML=h;
+}
+
+function showPeriodo(g){
+  document.querySelectorAll('.tab-section[id^="periodo-"]').forEach(function(el){el.classList.remove('active');});
+  document.querySelectorAll('#periodoTabs .tab').forEach(function(el){el.classList.remove('active');});
+  document.getElementById('periodo-'+g).classList.add('active');
+  event.target.classList.add('active');
+}
+
+renderLojas();
+</script>
 </body>
 </html>
