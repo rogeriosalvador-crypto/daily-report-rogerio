@@ -1,6 +1,6 @@
 {
   "data_referencia": "11/06/2026",
-  "data_atualizacao": "12/06/2026 14:04",
+  "data_atualizacao": "12/06/2026 17:53",
   "periodos": {
     "FESTVAL": {
       "D-1": {
@@ -20,10 +20,10 @@
         "er_pct": 6.89,
         "inv_merchant": 6343.82,
         "pct_inv_merchant": 7.24,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 10.97,
+        "nps": 78.7,
+        "sla_pct": 76.98,
+        "nsu_pct": 1.67,
         "gmv_recup": 0
       },
       "D-15": {
@@ -43,10 +43,10 @@
         "er_pct": 8.5,
         "inv_merchant": 5247.2,
         "pct_inv_merchant": 7.36,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 11.12,
+        "nps": 70.8,
+        "sla_pct": 87.44,
+        "nsu_pct": 2.55,
         "gmv_recup": 0
       },
       "D-21": {
@@ -66,10 +66,10 @@
         "er_pct": 9.17,
         "inv_merchant": 5517.57,
         "pct_inv_merchant": 7.56,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 10.63,
+        "nps": 74.7,
+        "sla_pct": 83.62,
+        "nsu_pct": 0.61,
         "gmv_recup": 0
       },
       "D-7": {
@@ -89,10 +89,10 @@
         "er_pct": 8.43,
         "inv_merchant": 6000.85,
         "pct_inv_merchant": 7.64,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 10.65,
+        "nps": 79.4,
+        "sla_pct": 86.55,
+        "nsu_pct": 1.64,
         "gmv_recup": 0
       },
       "MTD": {
@@ -112,10 +112,10 @@
         "er_pct": 7.77,
         "inv_merchant": 63767.72,
         "pct_inv_merchant": 7.57,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 10.4,
+        "nps": 75.1,
+        "sla_pct": 81.58,
+        "nsu_pct": 3.84,
         "gmv_recup": 0
       },
       "CONSOLIDADO": {
@@ -160,10 +160,10 @@
         "er_pct": 12.4,
         "inv_merchant": 3489.85,
         "pct_inv_merchant": 7.31,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 11.68,
+        "nps": 82.9,
+        "sla_pct": 86.68,
+        "nsu_pct": 3.82,
         "gmv_recup": 0
       },
       "D-15": {
@@ -183,10 +183,10 @@
         "er_pct": 13.47,
         "inv_merchant": 2363.14,
         "pct_inv_merchant": 6.42,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 12.25,
+        "nps": 76.7,
+        "sla_pct": 98.48,
+        "nsu_pct": 3.77,
         "gmv_recup": 0
       },
       "D-21": {
@@ -206,10 +206,10 @@
         "er_pct": 8.64,
         "inv_merchant": 3258.78,
         "pct_inv_merchant": 6.6,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 12.25,
+        "nps": 88.4,
+        "sla_pct": 97.24,
+        "nsu_pct": 3.23,
         "gmv_recup": 0
       },
       "D-7": {
@@ -229,10 +229,10 @@
         "er_pct": 10.75,
         "inv_merchant": 5343.73,
         "pct_inv_merchant": 9.1,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 12.04,
+        "nps": 80.0,
+        "sla_pct": 90.83,
+        "nsu_pct": 3.59,
         "gmv_recup": 0
       },
       "MTD": {
@@ -252,10 +252,10 @@
         "er_pct": 9.77,
         "inv_merchant": 42998.57,
         "pct_inv_merchant": 7.72,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 10.98,
+        "nps": 83.1,
+        "sla_pct": 88.7,
+        "nsu_pct": 3.04,
         "gmv_recup": 0
       },
       "CONSOLIDADO": {
@@ -300,10 +300,10 @@
         "er_pct": 8.04,
         "inv_merchant": 0,
         "pct_inv_merchant": 0.0,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 13.39,
+        "nps": 76.4,
+        "sla_pct": 43.18,
+        "nsu_pct": 8.64,
         "gmv_recup": 0
       },
       "D-15": {
@@ -323,10 +323,10 @@
         "er_pct": 6.9,
         "inv_merchant": 0,
         "pct_inv_merchant": 0.0,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 12.9,
+        "nps": 74.1,
+        "sla_pct": 71.49,
+        "nsu_pct": 11.36,
         "gmv_recup": 0
       },
       "D-21": {
@@ -346,10 +346,10 @@
         "er_pct": 7.07,
         "inv_merchant": 0,
         "pct_inv_merchant": 0.0,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 13.7,
+        "nps": 77.5,
+        "sla_pct": 78.61,
+        "nsu_pct": 7.84,
         "gmv_recup": 0
       },
       "D-7": {
@@ -369,10 +369,10 @@
         "er_pct": 8.28,
         "inv_merchant": 0,
         "pct_inv_merchant": 0.0,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 13.03,
+        "nps": 72.4,
+        "sla_pct": 44.38,
+        "nsu_pct": 11.01,
         "gmv_recup": 0
       },
       "MTD": {
@@ -392,10 +392,10 @@
         "er_pct": 8.74,
         "inv_merchant": 0,
         "pct_inv_merchant": 0.0,
-        "online_pct": 0,
-        "nps": 0,
-        "sla_pct": 0,
-        "nsu_pct": 0,
+        "online_pct": 12.94,
+        "nps": 76.4,
+        "sla_pct": 49.98,
+        "nsu_pct": 11.03,
         "gmv_recup": 0
       },
       "CONSOLIDADO": {
