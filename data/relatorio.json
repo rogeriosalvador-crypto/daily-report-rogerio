@@ -24,7 +24,8 @@
         "nps": 78.7,
         "sla_pct": 76.98,
         "nsu_pct": 1.67,
-        "gmv_recup": 0
+        "gmv_recup": 2000.28,
+        "gmv_recup_fonte": "rupture_items.total_item_value_recovered"
       },
       "D-15": {
         "gmv": 71276.39,
@@ -164,7 +165,8 @@
         "nps": 82.9,
         "sla_pct": 86.68,
         "nsu_pct": 3.82,
-        "gmv_recup": 0
+        "gmv_recup": 499.18,
+        "gmv_recup_fonte": "rupture_items.total_item_value_recovered"
       },
       "D-15": {
         "gmv": 36812.6,
@@ -304,7 +306,8 @@
         "nps": 76.4,
         "sla_pct": 43.18,
         "nsu_pct": 8.64,
-        "gmv_recup": 0
+        "gmv_recup": 104.12,
+        "gmv_recup_fonte": "rupture_items.total_item_value_recovered"
       },
       "D-15": {
         "gmv": 238438.64,
