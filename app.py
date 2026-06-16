@@ -1,3 +1,4 @@
+# template fix: periodos→grupos, mtd→grupos[g][MTD], gmv_atual→gmv — 2026-06-16
 """Daily Report Rogério Salvador — Dashboard de carteira sem login"""
 import json, os
 from pathlib import Path
