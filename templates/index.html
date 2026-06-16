@@ -95,7 +95,7 @@ select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7re
 <div class="table-wrap"><table>
 <thead><tr><th>Indicador</th><th>D-1</th><th>D-7</th><th>D-15</th><th>D-21</th><th>Var D1→D7</th></tr></thead>
 <tbody>
-{% set p = data.get('periodos',{}).get(g,{}) %}
+{% set p = data.get('grupos',{}).get(g,{}) %}
 {% set d1 = p.get('D-1',{}) %}{% set d7 = p.get('D-7',{}) %}{% set d15 = p.get('D-15',{}) %}{% set d21 = p.get('D-21',{}) %}
 {% for ik, il in [('gmv','GMV'),('pedidos','Pedidos'),('aov','AOV'),('cancel_pct','Cancel%'),('ruptura_pct','Ruptura%'),('er_pct','ER%'),('nps','NPS'),('sla_pct','SLA%'),('online_pct','Online%'),('gmv_rupt','GMV Rupt'),('gmv_recup','GMV Recup'),('nsu_pct','NSU%')] %}
 {% set v1=d1.get(ik) %}{% set v7=d7.get(ik) %}{% set v15=d15.get(ik) %}{% set v21=d21.get(ik) %}
@@ -124,13 +124,13 @@ select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7re
 <!-- S4: MTD CONSOLIDADO -->
 <div class="section-title" style="margin-top:1.5rem">MTD Consolidado</div>
 <div class="mtd-grid">
-{% for g in grupos %}{% set m = data.get('mtd',{}).get(g,{}) %}
+{% for g in grupos %}{% set m = data.get('grupos',{}).get(g,{}).get('MTD',{}) %}
 <div class="mtd-card">
   <h3>{{ g }}</h3>
-  <div class="mtd-val">{{ fmt_brl(m.get('gmv_atual')) }}</div>
-  <div class="mtd-sub">Mês anterior: {{ fmt_brl(m.get('gmv_ant')) }}</div>
-  {% if m.get('gmv_ant') and m.get('gmv_ant') != 0 %}
-  {% set var=((m.get('gmv_atual',0)-m.get('gmv_ant',0))/m.get('gmv_ant',0)*100)|round(1) %}
+  <div class="mtd-val">{{ fmt_brl(m.get('gmv')) }}</div>
+  <div class="mtd-sub">Mês anterior: —</div>
+  {% if false %}
+  {% set var=((m.get('gmv',0)-0)/0*100)|round(1) %}
   <div class="mtd-sub {% if var>=0 %}var-pos{% else %}var-neg{% endif %}">Var: {{ '+' if var>0 else '' }}{{ var }}%</div>
   {% endif %}
   <div class="mtd-sub">Meta: <span class="pill pill-{{ semaforo('ating_pct', m.get('ating_pct')) }}">{{ fmt_pct(m.get('ating_pct')) }}</span></div>
