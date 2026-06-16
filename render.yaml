@@ -6,5 +6,5 @@ services:
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.0
-# redeploy trigger v3 2026-06-12T17:15
+        value: "3.11"
+# trigger: fix template periodos/mtd chaves
