@@ -130,7 +130,7 @@ select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7re
 {% endif %}
 
 <script>
-var LOJAS = {{ lojas_json }};
+var LOJAS = {{ lojas_json|safe }};
 var COLS = ['nome','gmv','pedidos','ating_pct','aov','cancel_pct','ruptura_pct','er_pct','nps','sla_pct','online_pct','gmv_rupt','gmv_recup','nsu_pct'];
 var LABELS = ['Loja','GMV','Pedidos','Ating%','AOV','Cancel%','Ruptura%','ER%','NPS','SLA%','Online%','GMV Rupt','GMV Recup','NSU%'];
 var MONEY = ['gmv','aov','gmv_rupt','gmv_recup'];
