@@ -63,14 +63,14 @@ select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7re
 </div>
 
 {% if not data %}
-<div class="container"><p style="color:#f87171;margin-top:2rem">⚠️ Dados não disponíveis. POST /atualizar para inserir dados.</p></div>
+<div class="container"><p style="color:#f87171;margin-top:2rem">⚠️ Dados não disponíveis.</p></div>
 {% else %}
 <div class="container">
 
-<!-- S1: CARDS DOS GRUPOS -->
+<!-- S1: RESUMO D-1 (FIX: lê grupos[g]['D-1'], não grupos[g]) -->
 <div class="section-title">Resumo D-1</div>
 <div class="cards">
-{% for g in grupos %}{% set gd = data.get('grupos',{}).get(g,{}) %}
+{% for g in grupos %}{% set gd = data.get('grupos',{}).get(g,{}).get('D-1',{}) %}
 <div class="card">
   <div class="card-title">{{ g }}</div>
   <div class="card-row"><span class="label">GMV D-1</span><span class="gmv-main">{{ fmt_brl(gd.get('gmv')) }}</span></div>
@@ -85,10 +85,10 @@ select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7re
 {% endfor %}
 </div>
 
-<!-- S2: COMPARATIVO DE PERÍODOS -->
+<!-- S2: COMPARATIVO DE PERÍODOS (FIX: showPeriodo recebe event) -->
 <div class="section-title">Comparativo de Períodos</div>
 <div class="tabs" id="periodoTabs">
-{% for g in grupos %}<div class="tab {% if loop.first %}active{% endif %}" onclick="showPeriodo('{{ g }}')">{{ g }}</div>{% endfor %}
+{% for g in grupos %}<div class="tab {% if loop.first %}active{% endif %}" onclick="showPeriodo('{{ g }}', event)">{{ g }}</div>{% endfor %}
 </div>
 {% for g in grupos %}
 <div id="periodo-{{ g }}" class="tab-section {% if loop.first %}active{% endif %}">
@@ -112,7 +112,7 @@ select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7re
 </tbody></table></div></div>
 {% endfor %}
 
-<!-- S3: TABELA DE LOJAS -->
+<!-- S3: LOJAS -->
 <div class="section-title" style="margin-top:1.5rem">Lojas por Grupo</div>
 <div class="selects">
   <select id="selGrupo" onchange="renderLojas()">{% for g in grupos %}<option value="{{ g }}">{{ g }}</option>{% endfor %}</select>
@@ -121,7 +121,7 @@ select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7re
 </div>
 <div class="table-wrap" id="lojasTable"></div>
 
-<!-- S4: MTD CONSOLIDADO -->
+<!-- S4: MTD -->
 <div class="section-title" style="margin-top:1.5rem">MTD Consolidado</div>
 <div class="mtd-grid">
 {% for g in grupos %}{% set m = data.get('grupos',{}).get(g,{}).get('MTD',{}) %}
@@ -129,10 +129,6 @@ select{background:#1e1e3a;color:#e0e0e0;border:1px solid #333;padding:.4rem .7re
   <h3>{{ g }}</h3>
   <div class="mtd-val">{{ fmt_brl(m.get('gmv')) }}</div>
   <div class="mtd-sub">Mês anterior: —</div>
-  {% if false %}
-  {% set var=((m.get('gmv',0)-0)/0*100)|round(1) %}
-  <div class="mtd-sub {% if var>=0 %}var-pos{% else %}var-neg{% endif %}">Var: {{ '+' if var>0 else '' }}{{ var }}%</div>
-  {% endif %}
   <div class="mtd-sub">Meta: <span class="pill pill-{{ semaforo('ating_pct', m.get('ating_pct')) }}">{{ fmt_pct(m.get('ating_pct')) }}</span></div>
 </div>
 {% endfor %}
@@ -184,7 +180,8 @@ function renderLojas(){
   document.getElementById('lojasTable').innerHTML=h;
 }
 
-function showPeriodo(g){
+// FIX: event passado como parametro para funcionar corretamente
+function showPeriodo(g, event){
   document.querySelectorAll('.tab-section[id^="periodo-"]').forEach(function(el){el.classList.remove('active');});
   document.querySelectorAll('#periodoTabs .tab').forEach(function(el){el.classList.remove('active');});
   document.getElementById('periodo-'+g).classList.add('active');
