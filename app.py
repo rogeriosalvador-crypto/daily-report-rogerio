@@ -1,4 +1,3 @@
-# template fix: periodos→grupos, mtd→grupos[g][MTD], gmv_atual→gmv — 2026-06-16
 """Daily Report Rogério Salvador — Dashboard de carteira sem login"""
 import json, os
 from pathlib import Path
@@ -76,7 +75,7 @@ def index():
 @app.route("/atualizar", methods=["POST"])
 def atualizar():
     try:
-        payload = request.get_json(force=True)
+        payload = request.get_json(silent=True)
         if not payload:
             return jsonify({"error": "JSON inválido"}), 400
         DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
